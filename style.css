@@ -1,0 +1,150 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto-serif-v28-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/noto-serif-v28-latin-500.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/noto-serif-v28-latin-600.woff2') format('woff2');
+}
+
+
+@page {
+	size: A4 portrait;
+	margin: 0;
+}
+
+html {
+	/* Baseunit ist die Breite einer Karte */
+	--baseunit: calc(300px);
+	print-color-adjust: exact;
+}
+@media print {
+	html {
+		/* Baseunit ist die Breite einer Karte */
+		--baseunit: calc(28.57vw);
+	}
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	/* Auch auf dem Bildschirm sollen nicht mehr als 4 Karten nebeneinander */
+	max-width: calc(4 * var(--baseunit));
+	font-size: calc(0.07 * var(--baseunit));
+	font-family: 'Noto Serif';
+}
+
+.header {
+	margin: 40px 0 40px 0;
+}
+@media print {
+	.header {
+		display: none;
+	}
+}
+
+.pages {
+	display: block;
+	page-break-after: always;
+}
+.pages__single {
+	page-break-after: always;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+@media print {
+	.pages__single {
+		/* So viel Rand um die Seite, dass 3 Cards nebeneinander zentriert sind */
+		padding: calc(50vw - (1.5 * var(--baseunit))) 0 0 calc(50vw - (1.5 * var(--baseunit)));
+	}
+}
+
+
+.card {
+	width: calc(1 * var(--baseunit));
+	height: calc(1 * var(--baseunit));
+	box-sizing: border-box;
+	padding: calc(0.05 * var(--baseunit)) calc(0.1 * var(--baseunit)) calc(0.1 * var(--baseunit)) calc(0.1 * var(--baseunit));
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid #eee;
+}
+@media print {
+	.card {
+		/* Gedruckt ohne Rand für die Schneidemaschine */
+		border: 1px solid transparent;
+	}
+}
+
+.card--end3 { border-color: transparent; }
+.card--end1, .card--end2, .card--end4, .card--end5 {
+	background-color: black;
+	color: white;
+	border-color: black;
+}
+
+.card--cutting {
+	/* Zum Einstellen der Schneidemaschine */
+	border: 1px solid black;
+}
+
+.card__number {
+	font-weight: 500;
+	margin: 0 0 calc(0.02 * var(--baseunit)) 0;
+}
+
+.card__text {
+	flex-grow: 1;
+	display: block;
+}
+.card__text p {
+	margin: 0 0 calc(0.02 * var(--baseunit)) 0;
+}
+.card__text ul {
+	margin: 0 0 calc(0.02 * var(--baseunit)) 0;
+	padding-left: calc(0.05 * var(--baseunit));
+	list-style-type: none;
+}
+
+.card__text ul li {
+	position: relative;
+}
+.card__text ul li::before {
+	content: "- ";
+	position: absolute;
+	left: calc(-0.04 * var(--baseunit));
+	top: 0;
+}
+
+.documentation {
+	max-width: 800px;
+	margin: 100px auto 100px auto;
+}
+@media print {
+	.documentation {
+		display: none;
+	}
+}
+.documentation__heading {
+	margin: 0;
+}
+.documentation__text {
+	white-space: pre-line;
+	margin: 0 0 40px 0;
+}

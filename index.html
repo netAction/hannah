@@ -2,12 +2,16 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="title">
+		<h1>Hannahs Karten</h1>
+	</div>
 	<div class="pages"></div>
 
 	<div class="documentation">
-		<h2>Mechanik</h2>
+		<h2 class="documentation__heading">Mechanik</h2>
 		<div class="documentation__text">
 			Eine Frau und ein Mann lesen die Karten und erledigen die Aufgaben.  
 			Die Frau ist immer in der Rolle von Hanna, der Protagonistin.  
@@ -21,7 +25,7 @@
 			Manche Karten dürfen nur der Mann oder nur die Frau lesen.
 		</div>
 
-		<h2>Spoiler Charaktere</h2>
+		<h2 class="documentation__heading">Spoiler Charaktere</h2>
 		<div class="documentation__text">
 			Hanna, um die es die ganze Zeit geht  
 			Segler Tilman, am See dominant  
@@ -30,7 +34,7 @@
 			Klempner Johnny, hart und pervers
 		</div>
 
-		<h2>Spoiler Handlungen</h2>
+		<h2 class="documentation__heading">Spoiler Handlungen</h2>
 		<div class="documentation__text">
 			Gemeinsam Porno gucken  
 			Gemeinsam baden  
@@ -82,186 +86,26 @@
 			Beim Sex filmen
 		</div>
 
-		<h2>Chatgpt Prompt</h2>
-		<div class="description__text">
-			Ich habe ein Kartenspiel. Die Karten sind in einem Text definiert. Mit # beginnt die nächste Karte. Danach kommt die vierstellige Nummer der Karte, danach ein interner Titel, der nicht auf die Karte gedruckt ist. Darunter steht bis zum nächsten # der Text der Karte. Der reine Text auf der Karte sollte ca. 25 Wörter nicht übersteigen. Es können Karten eingefügt oder entfernt werden. Kannst du bitte die Texte erotisch und klar machen?
+		<h2 class="documentation__heading">Chatgpt Prompt</h2>
+		<div class="documentation__text">
+			Ich habe ein Kartenspiel erstellt. Die Karten sind in einem Text bereits definiert. Mit # beginnt die nächste Karte. Danach kommt die vierstellige Nummer der Karte, danach ein interner Titel, der nicht auf die Karte gedruckt ist. Darunter steht bis zum nächsten # der Text der Karte. Der reine Text auf der Karte sollte ca. 25 Wörter nicht übersteigen. Wenn du Karten schreibst, benutze bitte eine erotische und klare Sprache. Du musst dich nicht an die vorhandenen Karten halten und kannst gerne kreativ Story ergänzen und weitere Karten einfügen. Bitte gib deine Antwort nicht in Markdown, sondern plain Text, also wieder mit # am Anfang jeder Karte.
+		</div>
+
+		<h2 class="documentation__heading">Lizenz</h2>
+		<div class="documentation__text">
+			MIT License
+
+			Copyright (c) 2025 Thomas Schmidt
+
+			Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+			The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+			THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		</div>
 	</div>
 
 	<script src="karten.md"></script>
-	<script>
-	function parseMarkdownToCards(input) {
-		const lines = input.split('\n');
-		const cards = [];
-		let currentCard = null;
-		let listBuffer = [];
-
-		const flushListBuffer = () => {
-			if (listBuffer.length > 0) {
-				currentCard.text += `<ul>\n${listBuffer.join('\n')}\n</ul>\n`;
-				listBuffer = [];
-			}
-		};
-
-		for (const line of lines) {
-			const trimmed = line.trim();
-			if (trimmed === '') continue;
-
-			if (trimmed.startsWith('#')) {
-				// Vorherige Karte abschließen
-				if (currentCard) {
-					flushListBuffer();
-					cards.push(currentCard);
-					currentCard = null;
-				}
-
-				// Match mit erlaubtem Whitespace um die Nummer
-				const match = trimmed.match(/^#\s*(\d+)\s+(.*)$/);
-				if (match) {
-					currentCard = {
-						cardnumber: parseInt(match[1], 10),
-						description: match[2],
-						text: ''
-					};
-				} else {
-					console.warn('Ungültiger Header übersprungen:', trimmed);
-				}
-			} else if (currentCard) {
-				if (trimmed.startsWith('-')) {
-					listBuffer.push(`<li>${trimmed.slice(1).trim()}</li>`);
-				} else {
-					flushListBuffer();
-					currentCard.text += `<p>${trimmed}</p>\n`;
-				}
-			}
-		}
-
-		if (currentCard) {
-			flushListBuffer();
-			cards.push(currentCard);
-		}
-
-		return cards;
-	}
-
-	function formatCardNumber(num) {
-		return num.toString().padStart(4, '0');
-	}
-
-	function renderCards(cards) {
-		const chunks = [];
-		for (let i = 0; i < cards.length; i += 12) {
-			const group = cards.slice(i, i + 12);
-			const pageContent = group.map(card => {
-				return `
-					<div class="card">
-						<div class="card__number">${formatCardNumber(card.cardnumber)}</div>
-						<div class="card__text">
-							${card.text.trim()}
-						</div>
-					</div>
-				`;
-			}).join('\n');
-
-			chunks.push(`<div class="pages__single">\n${pageContent}\n</div>`);
-		}
-
-		return chunks.join('\n\n');
-	}
-
-	let pages_html = ''
-	// Die richtigen Seiten
-	pages_html += renderCards(parseMarkdownToCards(karten_markdown))
-	// Eine Testseite für die Schneidemaschine
-	pages_html += '<div class="pages__single">'
-	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
-	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
-	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
-	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
-	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
-	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
-	pages_html += '</div>'
-
-	document.querySelector('.pages').innerHTML = pages_html
-	</script>
-
-	<style>
-	@page {
-		size: A4 portrait;
-		margin: 0;
-	}
-
-	body {
-		margin: 0;
-		padding: 0;
-	}
-
-	.pages {
-		display: block;
-		page-break-after: always;
-	}
-
-	.pages__single {
-		page-break-after: always;
-		box-sizing: border-box;
-		display: flex;
-		flex-wrap: wrap;
-		padding: 7.14vw 0 0 7.14vw; /* 1,5cm rundrum */
-		margin: 0 auto;
-	}
-
-	.card {
-		width: 28.57vw;
-		height: 28.57vw;
-		box-sizing: border-box;
-		padding: 3vw;
-		font-size: 2vw;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		border: 1px solid #eee;
-	}
-
-	.card--cutting {
-		/* Zum Einstellen der Schneidemaschine */
-		border: 1px solid black;
-	}
-
-	.card__number {
-		font-weight: bold;
-		font-family: monospace;
-	}
-
-	.card__text {
-		flex-grow: 1;
-		display: block;
-	}
-	.card__text p {
-		margin: 0 0 0.5em 0;
-	}
-	.card__text ul {
-		margin: 0 0 0.5em 0;
-		padding-left:0.5em;
-		list-style-type: none;
-	}
-
-	.card__text ul li {
-		position: relative;
-	}
-	.card__text ul li::before {
-		content: "- ";
-		position: absolute;
-		left: -0.5em;
-		top: 0;
-	}
-
-	.documentation {
-		max-width: 800px;
-		margin: 100px auto 100px auto;
-	}
-	.documentation__text {
-		white-space: pre-line;
-	}
-	</style>
+	<script src="script.js"></script>
 </body>
 </html>
