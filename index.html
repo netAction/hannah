@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div class="pages"></div>
+
+	<div class="documentation">
+		<h2>Mechanik</h2>
+		<div class="documentation__text">
+			Eine Frau und ein Mann lesen die Karten und erledigen die Aufgaben.  
+			Die Frau ist immer in der Rolle von Hanna, der Protagonistin.  
+			Der Mann nimmt im Laufe der Geschichte verschiedene Rollen ein.  
+			Jede Karte hat eine vierstellige Nummer.  
+			Die Karten sind aufsteigend sortiert.  
+			Die oberste Karte auf dem Stapel wird gelesen.  
+			Gelesene Karten werden aus dem Spiel genommen.  
+			Es gibt Anweisungen, bestimmte spätere Karten aus dem Spiel zu nehmen. (Nimm Karte 1234 aus dem Spiel)  
+			Übersprungene Karten werden ungelesen aus dem Spiel genommen.  
+			Manche Karten dürfen nur der Mann oder nur die Frau lesen.
+		</div>
+
+		<h2>Spoiler Charaktere</h2>
+		<div class="documentation__text">
+			Hanna, um die es die ganze Zeit geht  
+			Segler Tilman, am See dominant  
+			Hannas Mann Nico, sanft  
+			Der Gärtner Philipp am Haus, folgend  
+			Klempner Johnny, hart und pervers
+		</div>
+
+		<h2>Spoiler Handlungen</h2>
+		<div class="documentation__text">
+			Gemeinsam Porno gucken  
+			Gemeinsam baden  
+			Gegenseitig massieren
+
+			Sie macht Lapdance oder Striptease  
+			Sie masturbiert  
+			Er streichelt ihre Pussy  
+			In Unterwäsche aneinander reiben  
+			Dekorative Seilkunst (Karada)  
+			Er leckt sie  
+			Facesitting
+
+			Sie bläst ihn  
+			Sie streichelt oder wichst ihn oder Lingammassage  
+			Sie steckt Finger in seinen Po  
+			In Unterwäsche aneinander reiben  
+			Er masturbiert
+
+			Missionar  
+			Missionar, er kniet vor dem Sofa, auf dem sie sitzt  
+			Missionar auf Kommode  
+			Ihre Hände ans Bett fesseln und Missionar  
+			Reiten  
+			Reiten rückwärts  
+			Seine Hände ans Bett fesseln und reiten  
+			Sie diagonal auf einen Tisch legen und von hinten nehmen  
+			Doggy  
+			Löffelchen  
+			Löffel aber er kniet und hebt ihr oberes Bein hoch  
+			Anal  
+			69 im Liegen
+
+			Er kommt in ihrem Mund  
+			Er kommt in ihrer Pussy  
+			Er kommt in ihrem Hintern  
+			Er spritzt auf ihren Körper  
+			Er masturbiert bis zum Orgasmus
+
+			Er leckt sie  
+			Er bedient ihr Sextoy  
+			Er fingert sie  
+			Sie masturbiert
+
+			Haare ziehen  
+			Mit Gerte auf Po hauen  
+			Ohrfeigen  
+			Nippel knabbern  
+			Beim Sex filmen
+		</div>
+
+		<h2>Chatgpt Prompt</h2>
+		<div class="description__text">
+			Ich habe ein Kartenspiel. Die Karten sind in einem Text definiert. Mit # beginnt die nächste Karte. Danach kommt die vierstellige Nummer der Karte, danach ein interner Titel, der nicht auf die Karte gedruckt ist. Darunter steht bis zum nächsten # der Text der Karte. Der reine Text auf der Karte sollte ca. 25 Wörter nicht übersteigen. Es können Karten eingefügt oder entfernt werden. Kannst du bitte die Texte erotisch und klar machen?
+		</div>
+	</div>
+
+	<script src="karten.md"></script>
+	<script>
+	function parseMarkdownToCards(input) {
+		const lines = input.split('\n');
+		const cards = [];
+		let currentCard = null;
+		let listBuffer = [];
+
+		const flushListBuffer = () => {
+			if (listBuffer.length > 0) {
+				currentCard.text += `<ul>\n${listBuffer.join('\n')}\n</ul>\n`;
+				listBuffer = [];
+			}
+		};
+
+		for (const line of lines) {
+			const trimmed = line.trim();
+			if (trimmed === '') continue;
+
+			if (trimmed.startsWith('#')) {
+				// Vorherige Karte abschließen
+				if (currentCard) {
+					flushListBuffer();
+					cards.push(currentCard);
+					currentCard = null;
+				}
+
+				// Match mit erlaubtem Whitespace um die Nummer
+				const match = trimmed.match(/^#\s*(\d+)\s+(.*)$/);
+				if (match) {
+					currentCard = {
+						cardnumber: parseInt(match[1], 10),
+						description: match[2],
+						text: ''
+					};
+				} else {
+					console.warn('Ungültiger Header übersprungen:', trimmed);
+				}
+			} else if (currentCard) {
+				if (trimmed.startsWith('-')) {
+					listBuffer.push(`<li>${trimmed.slice(1).trim()}</li>`);
+				} else {
+					flushListBuffer();
+					currentCard.text += `<p>${trimmed}</p>\n`;
+				}
+			}
+		}
+
+		if (currentCard) {
+			flushListBuffer();
+			cards.push(currentCard);
+		}
+
+		return cards;
+	}
+
+	function formatCardNumber(num) {
+		return num.toString().padStart(4, '0');
+	}
+
+	function renderCards(cards) {
+		const chunks = [];
+		for (let i = 0; i < cards.length; i += 12) {
+			const group = cards.slice(i, i + 12);
+			const pageContent = group.map(card => {
+				return `
+					<div class="card">
+						<div class="card__number">${formatCardNumber(card.cardnumber)}</div>
+						<div class="card__text">
+							${card.text.trim()}
+						</div>
+					</div>
+				`;
+			}).join('\n');
+
+			chunks.push(`<div class="pages__single">\n${pageContent}\n</div>`);
+		}
+
+		return chunks.join('\n\n');
+	}
+
+	let pages_html = ''
+	// Die richtigen Seiten
+	pages_html += renderCards(parseMarkdownToCards(karten_markdown))
+	// Eine Testseite für die Schneidemaschine
+	pages_html += '<div class="pages__single">'
+	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
+	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
+	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
+	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
+	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
+	pages_html += '<div class="card card--cutting"></div><div class="card card--cutting"></div>'
+	pages_html += '</div>'
+
+	document.querySelector('.pages').innerHTML = pages_html
+	</script>
+
+	<style>
+	@page {
+		size: A4 portrait;
+		margin: 0;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	.pages {
+		display: block;
+		page-break-after: always;
+	}
+
+	.pages__single {
+		page-break-after: always;
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 7.14vw 0 0 7.14vw; /* 1,5cm rundrum */
+		margin: 0 auto;
+	}
+
+	.card {
+		width: 28.57vw;
+		height: 28.57vw;
+		box-sizing: border-box;
+		padding: 3vw;
+		font-size: 2vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		border: 1px solid #eee;
+	}
+
+	.card--cutting {
+		/* Zum Einstellen der Schneidemaschine */
+		border: 1px solid black;
+	}
+
+	.card__number {
+		font-weight: bold;
+		font-family: monospace;
+	}
+
+	.card__text {
+		flex-grow: 1;
+		display: block;
+	}
+	.card__text p {
+		margin: 0 0 0.5em 0;
+	}
+	.card__text ul {
+		margin: 0 0 0.5em 0;
+		padding-left:0.5em;
+		list-style-type: none;
+	}
+
+	.card__text ul li {
+		position: relative;
+	}
+	.card__text ul li::before {
+		content: "- ";
+		position: absolute;
+		left: -0.5em;
+		top: 0;
+	}
+
+	.documentation {
+		max-width: 800px;
+		margin: 100px auto 100px auto;
+	}
+	.documentation__text {
+		white-space: pre-line;
+	}
+	</style>
+</body>
+</html>
