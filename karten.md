@@ -1,208 +1,206 @@
 let karten_markdown = `
 
-# 0000 Titel
+# 000 Titel
 
 HANNAHS KARTEN
+Eine interaktive erotische Geschichte mit vier großen Höhepunkten für Paare
 
-# 0010 Intro Begrüßung
+# 001 Intro Begrüßung
 Hallo Hannah!
 Dieses sinnliche Rollenspiel ist für zwei. Du brauchst zum Spielen einen Mann. Beginnt, indem ihr die nächste Karte lest.
 
-# 0013 Ruhe
+# 002 Ruhe
 Sucht euch einen ruhigen Ort und nehmt euch Zeit. Ihr werdet euch berühren, verführen – und tief eintauchen. Lest nun die nächste Karte.
 
-# 0050 Gegenstände
+# 003 Gegenstände
 Habt Folgendes bereit:
 - Zwei Augenbinden, Krawatten oder Schals
 - Weiche Seile, falls vorhanden
 
-# 0051 Gegenstände
+# 004 Gegenstände
 
 - Reitgerte, Kochlöffel oder Ähnliches
 - Öl oder Gleitgel für Massagen
 - Für sie: Hohe, elegante Stiefel oder ähnliche Schuhe
 
-# 0100 Mechanik
-Lest jede Karte nur einmal. Danach kommt sie aus dem Spiel. Dann geht’s weiter mit der nächsten.
+# 005 Mechanik
+Lest jede Karte nur einmal. Danach kommt sie ans Ende vom Spiel hinter die dicke gestreifte Karte. Anschließend geht’s weiter mit der nächsten.
 
-# 0101 Karte entfernen
+# 006 Karte entfernen
 
-Einige Karten sollt ihr aussortieren. Entfernt jetzt die Karte 0102.
+Einige Karten sollt ihr aussortieren. Entfernt jetzt die Karte 007 und lege sie ganz nach hinten.
 
-# 0102 Karte muss weg
+# 007 Karte muss weg
 
 Wenn du das hier liest, warst du zu neugierig. Diese Karte sollte bereits weggelegt sein.
 
-# 0103 Mechanik
+# 008 Mechanik
 
-Wenn ihr zu einer bestimmten Karte springen sollt, nehmt alle Karten bis dahin ungelesen aus dem Spiel. Jetzt weiter mit Karte 0105.
+Wenn ihr zu einer bestimmten Karte springen sollt, nehmt alle Karten bis dahin ungelesen aus dem Spiel. Jetzt weiter mit Karte 010.
 
-# 0104 Karte muss weg
+# 009 Karte muss weg
 
-Weg damit. Nicht lesen, einfach beiseitelegen.
+Weg damit. Nicht lesen, einfach nach hinten legen.
 
-# 0105 Viel Spaß
+# 010 Viel Spaß
 
 Bereit? Dann beginnt Hannahs Reise durch vier Kapitel voller Lust. Ihr könnt zwischen den Kapiteln Pausen einlegen – oder direkt weitermachen.
 
-# 1000 Kapitel 1 Tilman
+# 100 Kapitel 1 Tilman
 
 KAPITEL I
+Ein Sommertag am See. Ein Blick, der hängen bleibt. Ein Mann, der führt – wenn du es willst. Und Seile, die nicht nur Boote halten.
 
-# 1003 See
+# 101 See
 
 Hallo Hannah. Du hast heute frei und gehst am See spazieren. Die letzten Wochen waren anstrengend. Jetzt spürst du, wie gut es tut, draußen zu sein.
 
-# 1006 Story
+# 102 Story
 
 Wenn du eine Karte gelesen hast, leg sie beiseite. Lies dann direkt auf der nächsten weiter.
 
-# 1009 Segler
+# 103 Segler
 
 Dein Blick wandert über das Wasser. Boote gleiten vorbei – manche mit Segeln, andere leise paddelnd. Der Wind spielt mit deinem Haar.
 
-# 1012 Dominanz
+# 104 Dominanz
 
 Ein Mann am Steg zieht Seile straff. Sein Griff ist sicher, sein Blick bestimmt. Er wirkt wie jemand, der weiß, was er will.
 
-# 1015 Er braucht Hilfe
+# 105 Er braucht Hilfe
 
 Er ruft dich zu sich, bittet um deine Hilfe. Seine Stimme ruhig, aber eindeutig. Du trittst näher.
 
-# 1018 Name Tilman
+# 106 Name Tilman
 
 Er lächelt leicht, sieht dich an und sagt: „Ich bin Tilman.“ Seine Hand bleibt etwas zu lange auf deinem Arm.
 
-# 1021 BDSM Teaser
+# 107 BDSM Teaser
 
 Beim Arbeiten mit den Leinen sagt er leise: „Schon interessant, wie vielseitig Seile sein können … nicht nur für Boote.“ Ein Funkeln in seinen Augen.
 
-# 1030 Gespräch
+# 108 Gespräch
 
 Ihr redet, lacht, spürt ein Knistern. Sein Blick wird intensiver, dein Puls schneller.
 
-# 1033 Bootshaus
+# 109 Bootshaus
 
 Er fragt, ob du kurz mit ins Bootshaus kommst, um die Leinen ordentlich zu verstauen. Du folgst ihm.
 
-# 1036 Bootshaus Detail
+# 110 Bootshaus Detail
 
 Drinnen ist es warm und abgedunkelt. Der Duft von Holz und Leder liegt in der Luft. Seile, Gurte, kleine Kisten – nichts zufällig.
 
-# 1039 Abbruch? →1890
+# 111 Abbruch? →256
 
-Er tritt nah an dich heran, legt ein Seil locker um dein Handgelenk. „Willst du mehr?“ Wenn du zögerst oder ablehnst →1890
+Er tritt nah an dich heran, legt ein Seil locker um dein Handgelenk. „Willst du mehr?“ Wenn du zögerst oder ablehnst →256
 
-# 1050 Mach was ich sage
+# 112 Mach was ich sage
 
 Seine Stimme wird fester: „Wenn du willst, dass ich dich führe – vertraue mir. Tu, was ich sage.“
 
-# 1053 Enger Blick
+# 113 Enger Blick
 
 Du spürst seine Nähe. Der Raum, das Licht, die Welt verschwinden – nur noch er und du. Es gibt kein Zurück.
 
-# 1056 Ungehorsam →1890
+# 114 Ungehorsam →256
 
-Er stellt sich hinter dich, flüstert: „Gehorche – oder geh.“ Eine klare Grenze. Wenn du abbrichst →1890
+Er stellt sich hinter dich, flüstert: „Gehorche – oder geh.“ Eine klare Grenze. Wenn du abbrichst →256
 
-# 1300 Sex-Optionen
+# 115 Sex-Optionen
 
-Du schaust dir ohne ihn die folgenden Karten 1301-1393 an.
+Du schaust dir die Karten 150-169 an. Leg die Karten offen auf den Tisch, die du ihm erlaubst. Die er später nutzen darf. Der Rest verschwindet hinter das Spiel.
 
-# 1301 Mechanik
-
-Du legst offen hin, was du ihm erlaubst. Nur diese Karten darf er später nutzen. Der Rest verschwindet aus dem Spiel.
-
-# 1310 VS1: Tanzen
+# 150 VS1: Tanzen
 
 Vorspiel 1: Tanzen. Er entscheidet – Lapdance oder Striptease. Du folgst seiner Wahl, langsam, mit Blickkontakt.
 
-# 1311 VS1: Masturbieren
+# 151 VS1: Masturbieren
 
 Vorspiel 1: Du sollst dich vor ihm selbst berühren. Langsam. Sinnlich. Er sieht jede Bewegung.
 
-# 1312 VS1: Er streichelt sie
+# 152 VS1: Er streichelt sie
 
-Vorspiel 1: Er kniet sich zu ihr und achtet auf ihren Atem. Seine Finger gleiten über ihren Körper – bis zur Pussy.
+Vorspiel 1: Er kniet sich zu dir und achtet auf deinen Atem. Seine Finger gleiten über deinen Körper – bis in die Pussy.
 
-# 1320 VS2: Blasen
+# 153 VS2: Blasen
 
 Vorspiel 2: Du gehst auf die Knie. Er steht vor dir. Dein Mund nimmt ihn langsam auf.
 
-# 1321 VS2: Ihn wichsen
+# 154 VS2: Ihn wichsen
 
 Vorspiel 2: Du streichelst ihn mit der Hand. Sanft. Dein Blick bleibt auf seinem.
 
-# 1322 VS2: An ihm reiben
+# 155 VS2: An ihm reiben
 
 Vorspiel 2: Du stellst dich vor ihn, drehst dich. Reibst deinen Hintern an seinem Schwanz – ihr seid in Unterwäsche.
 
-# 1340 Stellung: Reiten
+# 156 Stellung: Reiten
 
 Stellung: Du setzt dich auf ihn, bestimmst Tempo und Tiefe. Deine Hände auf seiner Brust.
 
-# 1341 Stellung: Reiten rückwärts
+# 157 Stellung: Reiten rückwärts
 
 Stellung: Du reitest ihn rückwärts. Er sieht deinen Hintern. Du bewegst dich langsam, kontrolliert.
 
-# 1342 Stellung: Missionar
+# 158 Stellung: Missionar
 
 Stellung: Er fesselt deine Hände ans Bett. Dann dringt er tief in dich ein – ganz klassisch, ganz nah.
 
-# 1343 Stellung: auf Tisch
+# 159 Stellung: auf Tisch
 
 Stellung: Du liegst auf dem Tisch. Er nimmt dich von hinten. Sein Griff ist fest, der Tisch kalt.
 
-# 1350 Finale er: Pussy
+# 160 Finale er: Pussy
 
 Finale er: Er kommt tief in dir. Warm. Pulsierend. Du spürst alles.
 
-# 1351 Finale er: Mund
+# 161 Finale er: Mund
 
 Finale er: Er spritzt in deinen Mund. Du nimmst ihn ganz. Ein letzter Blick – dann schmeckst du ihn.
 
-# 1352 Finale er: Körper
+# 162 Finale er: Körper
 
 Finale er: Er kommt auf deinem Körper. Heiße Tropfen auf Haut, Brust, Bauch.
 
-# 1360 Finale sie: Lecken
+# 163 Finale sie: Lecken
 
 Finale sie: Er leckt dich, bis du kommst. Sein Mund kennt deinen Rhythmus.
 
-# 1361 Finale sie: Fingern
+# 164 Finale sie: Fingern
 
 Finale sie: Seine Finger in dir – langsam, zielstrebig. Dein Körper bäumt sich auf.
 
-# 1362 Finale sie: Masturbieren
+# 165 Finale sie: Masturbieren
 
 Finale sie: Du machst es dir selbst. Er schaut zu – oder gibt leise Anweisungen.
 
-# 1390 Extra-Erlaubnis: Haare ziehen
+# 166 Extra-Erlaubnis: Haare ziehen
 
 Extra: Er darf deine Haare packen, dich daran führen. Hart oder zärtlich – dein Blick gibt ihm Antwort.
 
-# 1391 Extra-Erlaubnis: Gerte
+# 167 Extra-Erlaubnis: Gerte
 
-Extra: Er darf dich mit einer Gerte auf den Po schlagen. Vorher: ein Blick, eine Frage, dein Ja.
+Extra: Er schlägt dich mit einer Gerte auf den Po. Vielleicht auf die Oberschenkel.
 
-# 1392 Extra-Erlaubnis: Ohrfeigen
+# 168 Extra-Erlaubnis: Ohrfeigen
 
-Extra: Wenn du es erlaubst: eine leichte Ohrfeige. Ein Spiel mit Macht – und Vertrauen.
+Extra: Eine leichte Ohrfeige. Ein Spiel mit Macht – und Vertrauen.
 
-# 1393 Extra-Erlaubnis: Nippel knabbern
+# 169 Extra-Erlaubnis: Nippel knabbern
 
-Extra: Er darf deine Nippel mit Lippen und Zähnen reizen. Zart. Hart. Ganz wie du es willst.
+Extra: Er darf deine Nippel mit Lippen und Zähnen reizen. Zart. Hart. Ganz wie er es will.
 
-# 1400 Mechanik: Nur er liest
+# 200 Mechanik: Nur er liest
 
-Ab hier liest nur der Mann weiter. Sie weiß nicht, was kommt.
+Ab hier liest nur der Mann weiter. Hannah weiß nicht, was kommt.
 
-# 1403 Er sucht aus
+# 201 Er sucht aus
 
 Entscheide dich still – ohne ihr etwas zu zeigen.
 Wähle je eine Karte, die sie dir erlaubt hat, aus den folgenden Kategorien:
 
-# 1406 Kategorien
+# 202 Kategorien
 
 - Vorspiel 1
 - Vorspiel 2
@@ -211,883 +209,924 @@ Wähle je eine Karte, die sie dir erlaubt hat, aus den folgenden Kategorien:
 - Finale sie
 - Extra
 
-# 1406 Mood
+# 203 Mood
 
-Führe sie mit Klarheit – und mit Sinnlichkeit. Baue das ausgesuchte Extra nach Belieben ein.
+Führe sie nachher mit Klarheit – und mit Sinnlichkeit. Baue das ausgesuchte Extra nach Belieben ein.
 
-# 1410 Betatschen
+# 204 Betatschen
 
-Stell sie vor dich. Fahr mit den Händen über ihren Körper. Mach ihr Komplimente. Zeig ihr, dass du sie willst.
+Stell sie jetzt vor dich. Fahr mit den Händen über ihren Körper. Mach ihr Komplimente. Zeig ihr, dass du sie willst.
 
-# 1413 Augen verbinden
+# 205 Augen verbinden
 
 Verbinde ihr die Augen. Lass sie fühlen, nicht sehen. Jede Berührung wird intensiver.
 
-# 1416 Erkunden
+# 206 Erkunden
 
-Erkunde sie im Stehen. Mit Händen, Lippen, vielleicht der Zunge. Taste dich langsam vor. Reize sie – aber halte sie zurück.
+Erkunde sie weiter im Stehen. Mit Händen, Lippen, vielleicht der Zunge. Taste dich langsam vor. Reize sie.
 
-# 1419 Vorspiel 1 Start
+# 207 Vorspiel 1 Start
 
-Starte das von dir gewählte Vorspiel 1.
+Starte das von dir gewählte Vorspiel 1, während sie die Augenbinde noch trägt. Dafür kannst du sie hinsetzen oder hinlegen, wenn du möchtest.
 
-# 1421 Augenbinde weg
+# 208 Augenbinde weg
 
 Nimm ihr die Augenbinde wieder ab. Schau ihr in die Augen. Was siehst du?
 
-# 1450 Start
+# 209 Start
 
 Beginne Vorspiel 2. Danach die Stellung. Zum Schluss das Finale – deins, ihres oder beider. Nimm dir, was sie dir gegeben hat.
 
-# 1500 Monolog
+# 210 Monolog
   
 Du ziehst dich langsam zurück, atmest ruhig. Dann sagst du: „Danke. Du warst mutig. Und wunderschön.“ Gib ihr die Karten zurück.
 
-# 1510 Gemeinsam
+# 211 Gemeinsam
 
-Hannah liest jetzt wieder mit.
+Hannah liest ab hier wieder.
 
-# 1520 Aufwachen
+# 212 Aufwachen
 
 Du hörst das Haus, den Wind. Du riechst Holz, Seil, vielleicht seine Haut. Langsam kommst du wieder ganz zu dir.
 
-# 1523 Anziehen
+# 213 Anziehen
 
 Hannah zieht sich an, langsam. Ihr Blick fällt auf ihn. Etwas bleibt unausgesprochen.
 
-# 1529 Er will Wiedersehen
+# 214 Er will Wiedersehen
 
 Er sagt nicht viel. Doch seine Stimme verrät: Das war nicht das letzte Mal.
 
-# 1800 Partygedanken
+# 250 Partygedanken
 
-Hannah denkt an die Party, die sie bald geben will. Musik, Menschen, Gespräche. Doch in ihrem Kopf ist immer noch er.
+Du denkst an die Party, die du bald geben willst. Musik, Menschen, Gespräche.
 
-# 1810 Nicht einladen →1900
+# 251 Nicht einladen →254
 
-Wenn sie ihn nicht einladen will, geht’s direkt weiter mit Karte 1900.
+Wenn du ihn nicht einladen willst, geht’s direkt weiter mit Karte →254.
 
-# 1850 Einladung
+# 252 Einladung
 
-Hannah fragt ihn, ob er zur Party kommen möchte. Er lächelt und nickt. „Ich wäre gern dabei.“
+Du fragst Tilman, ob er zur Party kommen möchte. Er lächelt und nickt. „Ich wäre gern dabei.“
 
-# 1860 5020 entfernen weil Segler kommt
+# 253 910 entfernen weil Segler kommt
 
-Da Tilman kommt, entferne Karte 5020 jetzt aus dem Stapel.
+Da Tilman kommt, entferne Karte 910 jetzt aus dem Stapel.
 
-# 1870 Verlassen
+# 254 Verlassen
 
-Sie verabschiedet sich. Es ist still zwischen ihnen, aber nicht leer. Es bleibt ein Nachklang.
+Ihr verabschiedet euch. Es ist still zwischen euch, aber nicht leer. Es bleibt ein Nachklang.
 
-# 1873 Stille →1900
+# 255 Stille →257
 
-Stille breitet sich in ihr aus. Doch auch ein Ziehen – wie ein Knoten, der noch nicht ganz gelöst ist. Weiter mit Karte 1900.
+Stille breitet sich in dir aus. Doch auch ein Ziehen – wie ein Knoten, der noch nicht ganz gelöst ist. Weiter mit Karte 257.
 
-# 1890 Unverrichtet
+# 256 Unverrichtet
 
-Hannah geht, ohne sich ihm hinzugeben. Aber sein Blick, seine Stimme – sie bleiben. Und etwas in ihr bleibt wach.
+Du gehst, ohne dich ihm hinzugeben. Aber sein Blick, seine Stimme – sie bleiben. Und etwas in dir bleibt wach.
 
-# 1900 Nach Hause
+# 257 Nach Hause
 
 Der Weg nach Hause ist ruhig. Jeder Schritt bringt Klarheit – und Fragen. Was ist da geschehen?
 
-# 1950 Pause
+# 258 Pause
 
-Hier könnt ihr eine Pause machen. Atmet durch, redet – oder schweigt. Wenn ihr weiter spielen wollt: Mischt das nächste Kapitel.
+Hier könnt ihr eine Pause machen. Atmet durch, redet – oder schweigt. Wenn ihr weiter spielen wollt: Lest das nächste Kapitel.
 
-# 2000 Kapitel 2 Nico
+# 300 Kapitel 2 Nico
 
 KAPITEL II
+Zuhause. Regen. Ruhe. Dein Mann. Und du. Ein Abend zwischen Alltag und Aufbruch. Was passiert, wenn Nähe neu beginnt?
 
-# 2003 Intro
+# 301 Intro
 
-Hannah in gewohnter Umgebung zu Hause, Ruhe
+Du bist zu Hause. Alles ist ruhig. Draußen Regen. Drinnen Tee. Und dein Körper – wach, aber weich.
 
-# 2006 Chillout
+# 302 Chillout
 
-Abend, es regnet sanft, sie liest auf dem Sofa ein Buch und trinkt Tee
+Es ist Abend. Sanfter Regen tropft gegen die Scheiben. Du liegst auf dem Sofa, ein Buch auf deinem Bauch. Der Tee in deiner Hand duftet nach Jasmin.
 
-# 2009 Mann kommt
+# 303 Mann kommt
 
-Ihr Mann Nico kommt zu ihr. Trägt einen nassen Mantel
+Die Tür geht auf. Er kommt herein – dein Mann. Nasser Mantel, feuchtes Haar, ruhiger Blick. „Hey“, sagt er. Mehr nicht. Aber das reicht.
 
-# 2012 Behutsam
+# 304 Behutsam
 
-Er ist unaufdringlich, sanft, achtsam, sexuell offen, schenkt ihr Aufmerksamkeit
+Er hängt den Mantel auf. Kommt zu dir. Setzt sich nicht sofort. Sondern schaut dich an. Du spürst ihn ganz.
 
-# 2015 Abbruch? →2890
+# 305 Abbruch? →456
 
-Er bemerkt ihre Entspannung und fragt mit emotionaler Tiefe, ob er ungelegen kommt. Falls ja, Sprung zu 2890
+Du atmest tief ein. Er fragt: „Störe ich?“ Wenn du Abstand willst, wenn du allein bleiben willst →456
 
-# 2100 Drinks
+# 306 Drinks
 
-Sie gehen in die Küche, sie machen zusammen Drinks
+Ihr geht in die Küche. Ihr mischt euch Drinks – spielerisch, langsam. Kaltes Glas an warmen Händen. Er schaut dir beim Schneiden zu. Du spürst seinen Blick am Hals.
 
-# 2103 Tipps
+# 307 Tipps
 
-Tipps, wie das mit den Drinks gehen könnte
+Wenn ihr mögt:
+- Gin Tonic mit Gurke
+- Weißer Rum mit Limette & Zucker
+- Whiskey auf Eis – nichts weiter
 
-# 2106 Bindung
+# 308 Bindung
 
-Beide unterhalten sich, vertiefen ihre Bindung, reden über Fallenlassen
+Ihr redet über Vertrauen. Über das Loslassen. Seine Stimme ist ruhig. Deine Hand bleibt auf seinem Arm liegen.
 
-# 2200 Flirt oder →2890
+# 309 Flirt oder →456
 
-Flirten: Knutschen, kuscheln, halten oder bei Desinteresse 2890
+Willst du mehr? Berührung, Küsse, Nähe? Dann lies weiter. Wenn nicht →456
 
-# 2210 Befummeln
+# 310 Befummeln
 
-Gegenseitig mit diversen Körperteilen spielen (haar, wangen, po hauen)
+Du sitzt auf der Arbeitsplatte. Er steht nah. Ihr spielt mit den Fingerspitzen: Haar, Nacken, Wange.
+Dann fester: Hüfte, Po, Biss am Hals. Ihr lacht.
 
-# 2220 Porno aussuchen
+# 311 Porno aussuchen
 
-Hanna sucht einen kurzen Pornoclip zB von Youporn aus, währenddessen liest der Mann alleine die nächste Karte
+Du suchst im Internet einen kurzen Porno-Clip für euch aus, zum Beispiel auf YouPorn. Während du suchst, liest er allein die nächste Karte 312.
 
-# 2223 Mann schreibt Hannah
+# 312 Mann schreibt Hannah
 
-Nur der Mann: Schreibe an Hanna eine sexy Nachricht (hier Textvorlage)
+Nur für ihn: Schreib ihr jetzt eine Nachricht, die sie erröten lässt. Zum Beispiel: "Ich will deinen Geschmack an meinen Fingern."
 
-# 2226 Porno gucken
+# 313 Porno gucken
 
-Zusammen Porno gucken, gerne vorspulen und diskutieren
+Seht euch den Clip an. Lacht, spult vor, haltet inne. Ihr redet über Lust, über Echtheit.
 
-# 2230 Bad oder Massage
+# 314 Bad oder Massage
 
-Beide entscheiden: Bad oder gegenseitige Massage, dann Ausführung
+Entscheidet zusammen: Wollt ihr ein Bad mit weichen Körpern in warmem Wasser? Oder Massagen mit Haut auf Haut und Öl auf Wirbelsäulen?
+Dann: Umsetzen!
 
-# 2300 Darkroom oder →2890
+# 315 Entspannt
 
-Darkroom: Beide verbinden ihre Augen, ausziehen, gegenseitig berühren oder 2890
+Wenn ihr euch schön entspannt habt und bereit seid weiter zu machen, nehmt euch zwei Augenbinden. Schals, Krawatten, was ihr habt.
 
-# 2400 Öl
+# 316 Öl
 
-Öl zur Vorbereitung bereitstellen. Falls keine Kondome benutzt werden, sonst Gleitgel und Wasser, soweit verfügbar
+Stellt auch Öl für später bereit – oder Gleitgel, falls Kondome benutzt werden.
 
-# 2500 Vorbereitung
+# 317 Vorbereitung
 
-Es folgt Verbindungssex: liebevoll, streicheln, eingespielt
+Euer Sex wird heute liebevoll. Nicht brav – aber geführt durch Zärtlichkeit. Gespielt. Gelernt. Und doch neu.
 
-# 2600 Karten suchen
+# 318 Karten suchen
 
-Sucht euch von allen 26xx Karten eine Stellung und für jeden einen Höhepunkt gemeinsam aus.
+Nehmt die Karten 350-359 und breitet sie vor euch aus.
 
-# 2610 Stellung: Reiten
+# 350 Stellung: Reiten
 
-Stellung: Reiten
+Stellung: Du setzt dich auf ihn. Bestimmst Tempo und Tiefe. Seine Hände an deinen Hüften. Deine auf seiner Brust.
 
-# 2611 Stellung: Doggy
+# 351 Stellung: Doggy
 
-Stellung: Doggy
+Stellung: Du auf allen Vieren. Er hinter dir. Ein Blick nach vorn – dann: fallenlassen.
 
-# 2612 Stellung: Löffel
+# 352 Stellung: Löffel
 
-Stellung: Löffel
+Stellung: Ihr liegt eng aneinander. Dein Rücken an seinem Brustkorb. Er bewegt sich in dir – langsam, tief.
 
-# 2613 Stellung: Missionar
+# 353 Stellung: Missionar
 
-Stellung: Missionar
+Stellung: Er über dir, du unter ihm. Augen nah. Körper ineinander. Ein Spiel aus Nähe, Atem und Rhythmus.
 
-# 2650 Höhepunkt sie: Toy
+# 354 Höhepunkt sie: Toy
 
-Höhepunkt Hanna: Sextoy
+Höhepunkt Hanna: Du gibst ihm ein Toy. Er benutzt es an dir – zärtlich, aufmerksam.
 
-# 2651 Höhepunkt sie: Streicheln
+# 355 Höhepunkt sie: Streicheln
 
-Höhepunkt Hanna: er streichelt warm ihre Yoni
+Höhepunkt Hanna: Er streichelt deine Yoni. Sanft. Warm. Du öffnest dich in Wellen.
 
-# 2652 Höhepunkt sie: Lecken
+# 356 Höhepunkt sie: Lecken
 
-Höhepunkt sie: Er leckt sie
+Höhepunkt Hannah: Er leckt dich. Langsam. Tief. Und bleibt bei dir – bis du kommst.
 
-# 2660 Höhepunkt er: Abspritzen
+# 357 Höhepunkt er: Abspritzen
 
-Höhepunkt Mann: Auf ihren Körper spritzen
+Höhepunkt Nico: Er kommt auf dich. Brust, Bauch, Hals – warm, sichtbar. Dein Blick bleibt bei ihm.
 
-# 2661 Höhepunkt er: Mund
+# 358 Höhepunkt er: Mund
 
-Höhepunkt Mann: In ihrem Mund kommen
+Höhepunkt Nico: Du nimmst ihn in den Mund. Und lässt ihn kommen. Du schmeckst ihn, schluckst ihn, schaust ihn an.
 
-# 2662 Höhepunkt er: Pussy
+# 359 Höhepunkt er: Pussy
 
-Höhepunkt Mann: Er füllt zärtlich ihre Yoni
+Höhepunkt Nico: Er kommt in dir. Langsam. Pulsierend. Du spürst jede Regung.
 
-# 2700 Alles ausgesucht?
+# 400 Aussuchen
 
-Alles ausgesucht? Dann weiter.
+Entscheidet euch gemeinsam für
+- eine Stellung
+- je einen Höhepunkte für Nico und Hannah
+Alle anderen Karten kommen weg.
 
-# 2710 Yonimassage mit Anleitung
+# 401 Alles ausgesucht? →407
 
-Yonimassage mit Anleitung
+Alles ausgesucht? Habt ihr drei Karten vor euch liegen? Dann lest erstmal weiter, bis ihr bei Karte 407 alles umsetzt.
 
-# 2720 Schwanzmassage mit Anleitung
+# 402 Darkroom
 
-Schwanzmassage mit Anleitung
+Licht aus. Augen verbinden. Ihr umarmt euch langsam, tastend. Spürt: nichts sehen macht alles intensiver.
 
-# 2730 Vögeln
+# 403 Ausziehen
 
-ausgesuchte Stellung und Höhepunkte umsetzen
+Zieht euch langsam aus. Mit Haut an Haut, Atem an Haut. Erkundet euch – aber bleibt draußen.
 
-# 2800 Stille
+# 404 Augenbinde ab
 
-Es ist still, sie hören nur das Atmen des anderen
+Löst euch vorsichtig die Binden. Schaut euch an. Euer Blick kennt jetzt mehr als vorher.
 
-# 2803 Story Nacht
+# 405 Yonimassage mit Anleitung
 
-Es ist Nacht geworden in der Stadt
+Er massiert deine Yoni: langsam, warmes Öl, weiche Kreise, außen beginnend. Kein Ziel, nur Spüren. Du atmest. Dein Körper öffnet sich – in Ruhe.
 
-# 2806 Story Wärme
+# 406 Schwanzmassage mit Anleitung
 
-Die Herzen schlagen ruhig, sie sind in einer Decke, sie spüren ihre Wärme
+Du massierst ihn: Öl, Hände, Druck variiert. Hoden, Schaft, Damm. Kein Wollen. Nur Präsenz.
+Er darf genießen – ohne Ziel. Nur fühlen.
 
-# 2809 Gespräch
+# 407 Vögeln
 
-Sie sprechen darüber, wie sie den tiefen Sex und die gegenseitige Präsenz genossen haben
+Jetzt setzt ihr alles um. Die Dunkelheit, die gegenseitigen Massagen, die ausgesuchte Stellung, eure Höhepunkte. So echt, wie ihr heute seid.
 
-# 2830 Partygedanken
+# 408 Stille
 
-Hannah denkt an ihre Party
+Ihr liegt nebeneinander. Die Welt ist draußen. Drinnen: euer Atem.
 
-# 2833 Einladung oder →2900
+# 409 Story Nacht
 
-Möchte sie ihren Mann zur Party nicht einladen? Sprung zu 2900
+Es ist Nacht geworden. Autos rauschen fern. Dein Körper liegt warm an seinem. Und du fragst dich:
+Was war das eben?
 
-# 2836 Partyeinladug
+# 410 Story Wärme
 
-Sie erwähnt die Party, und er lädt sich ein
+Ihr teilt euch eine Decke. Und ein Gefühl. Nicht nur Nähe – sondern: Geborgenheit. Und trotzdem ein Rest Hunger.
 
-# 2839 5021, 5232, 5292 weg weil Mann kommt
+# 411 Gespräch
 
-Entferne 5021, 5232 und 5292 aus dem Stapel
+Ihr redet. Über das, was passiert ist. Was gefehlt hat. Was neu war. Und was ihr euch morgen wieder nehmen wollt.
 
-# 2842 Anlehnen
+# 450 Partygedanken
 
-Sie lehnen sich aneinander und atmen tief aus
+Du denkst an die Party, die du bald gibst. Menschen. Räume. Möglichkeiten.
 
-# 2845 Verlassen →2900
+# 451 Einladung oder →454
 
-Beide bedanken sich, er verlässt sanft das Bett, zieht sich an und geht langsam. Sprung zu 2900
+Unter deinem Laken glüht noch seine Haut. Willst du ihn einladen? Wenn nicht: →454
 
-# 2890 Er geht
+# 452 Partyeinladug
 
-Er geht langsam unverrichteter Dinge. Hanna sinniert, wie er sonst so ist
+Du erwähnst die Party. Er lächelt schräg. „Wenn ich kommen darf…“ Du nickst.
 
-# 2900 Story Nacht
+# 453 911, 944, 956 weg weil Mann kommt
 
-Hanna geht ans Fenster, beobachtet die Regentropfen und den Beginn der Nacht
+Entferne jetzt: 911, 944 und 956, weil dein Mann kommt.
 
-# 2950 Pause
+# 454 Anlehnen
 
-Pause vom Spiel anbieten
+Ihr sitzt auf dem Boden. Er hinter dir, du zwischen seinen Beinen. Sein Kinn auf deiner Schulter. Ihr atmet synchron. Mehr braucht es nicht.
 
-# 3000 Kapitel 3 Philipp
+# 455 Verlassen →457
+
+Er küsst deine Schulter, zieht sich leise an. Hinterlässt Wärme im Rücken. Sprung zu 457
+
+# 456 Er geht
+
+Er geht. Kein Kuss, kein Druck. Nur ein Blick, der fragt: „Vielleicht morgen?“ Und du denkst: Vielleicht.
+
+# 457 Story Nacht
+
+Du stehst am Fenster. Draußen tropft der Regen. Drinnen: Wärme auf deiner Haut, Gedanken in deinem Bauch. Die Nacht beginnt. Und bleibt bei dir.
+
+# 458 Pause
+
+Ihr könnt hier eine Pause machen. Wenn ihr bereit seid: lest weiter das nächste Kapitel.
+
+# 500 Kapitel 3 Philipp
 
 KAPITEL III
+Ein neuer Tag. Ein Garten. Ein Mann, der gehorchen will – wenn du ihn lässt. Heute trägst du Stiefel. Und das Kommando.
 
-# 3003 Hannah
+# 501 Hannah
 
-Hanna sitzt in ihrem Wohnzimmer, die Sonne scheint, das Fenster ist offen, etwas Wind weht herein
+Du sitzt auf der Fensterbank, barfuß, mit einer Tasse Kaffee in der Hand. Das Fenster ist offen, etwas Wind weht herein.
 
-# 3006 Sieht Gärtner
+# 502 Sieht Gärtner
 
-Im Garten gegenüber fällt ihr der Gärtner auf, der muskulös und stark ein Beet umgräbt  
+Im Garten gegenüber gräbt ein Mann ein Beet um. Stark, konzentriert. Jeder seiner Bewegungen zeigt Kraft und Hingabe. Erde klebt an seinen Händen.
 
-# 3009 Wahl →3890
+# 503 Gedanken
 
-Sie möchte selbstbewusst und sehr auffällig auftreten oder 3890
+Etwas an ihm lässt dich nicht wegsehen. Wie er sich bewegt – zielstrebig, aber nie grob. Wie sein Blick prüft, nicht fordert. Da ist Stärke, aber keine Eitelkeit.
 
-# 3020 Stiefel
+# 504 Entschluss
 
-Ziehe jetzt hohe, glänzende Stiefel an oder andere auffällige Schuhe
+Du spürst es: Er will geführt werden. Er wird folgen, wenn jemand übernimmt. Und du kannst führen. Und heute: willst führen.
 
-# 3023 Dessous
+# 505 Wahl →655
 
-Dazu Dessous oder etwas anderes, in dem sie sich stark fühlt
+Willst du selbstbewusst und mit klarer Haltung auftreten? Wenn du dich stattdessen zurückziehen, ihn nur beobachten möchtest, springe zu Karte 655.
 
-# 3026 Aufbruch
+# 506 Aufbruch
 
-Sie geht langsam rüber
+Du beobachtest ihn eine Weile. Dann stellst du deine Tasse ab. Das Spiel führst du. Heute gehorcht er.
 
-# 3030 Garten
+# 507 Stiefel
 
-In den Beeten blüht es, es duftet nach Blumen
+Du ziehst hohe, schwarze Stiefel an. Lack, Leder, leise Schritte. Jeder Zentimeter deiner Haltung wird zur Ansage.
 
-# 3033 Mann
+# 508 Dessous
 
-Er arbeitet nachdenklich und akkurat, sticht die Erde präzise ab
+Dazu: Dessous. Nur ein Hauch Stoff, der alles verheisst. Du ziehst dich jetzt (in echt) um und betrachtest dich im Spiegel. Bereit.
 
-# 3036 Dialog
+# 509 Rübergehen
 
-Sie stellt sich vor, er stellt schüchtern den Spaten weg und antwortet, sein Name ist Philipp
+Du öffnest die Tür und gehst langsam in den Garten. Deine Schritte im Kies sind rhythmisch, bestimmt. Der Mann schaut auf.
 
-# 3039 Abbruch →3890
+# 510 Garten
 
-Hanna erwähnt seine ungesunde Körperhaltung. Er antwortet zaghaft. Wenn sie ihn nicht korrigieren möchte: 3890
+Blumen blühen. Lavendel, Rosen, ein Hauch von Minze in der Luft. Ein Spiel aus Farben, Gerüchen und Verführung.
 
-# 3042 Erster Befehl
+# 511 Umgraben
 
-Sie befiehlt ihm mehr in die Knie zu gehen, den Oberkörper aufrecht zu halten und sich immer wieder aufzurichten
+Der Mann sticht den Spaten tief in die Erde. Mit gleichmäßigen, kräftigen Bewegungen hebt er Wurzelballen aus, lockert das Erdreich.
 
-# 3035 Geführt
+# 512 Mann
 
-Er setzt das um und bedankt sich für die Führung
+Er hebt den Blick, wischt sich über die Stirn. Sein Blick bleibt an deinen Stiefeln hängen, wandert langsam nach oben. "Guten Morgen," sagt er leise.
 
-# 3038 Absatz
+# 513 Dialog
 
-Sie zeigt mit dem hohen Absatz auf einen Erdklumpen, den er noch feiner teilen soll.
+"Hannah", sagst du. Er stellt den Spaten ab. "Philipp." Er wirkt verlegen, aber fasziniert. Sein Blick weicht nicht von deinen Lippen.
 
-# 3041 Knien
+# 514 Abbruch →655
 
-Er geht auf die Knie und bricht mit den Händen die Erde direkt unter ihrem Schuh
+Du betrachtest ihn kritisch. "Dein Rücken wird dir das nicht danken" Philipp zuckt zusammen, richtet sich auf. Willst du ihn weiter korrigieren? Wenn nicht: →655
 
-# 3060 Anmache
+# 515 Erster Befehl
 
-Sie schiebt ihre Hüfte nach vorne, er schaut auf, hat direkt vor seinem Gesicht ihre Mitte und über sich ihre Brüste
+"Gerader Rücken", sagst du ruhig. "Die Schultern zurück. Zeig mir, dass du dich fühlen kannst." Er gehorcht sofort.
 
-# 3063 Geruch
+# 516 Geführt
 
-Er riecht ihr Parfüm und etwas, das ihn ganz ihre Wünsche erfüllen ließ
+Du trittst näher. "Gut", sagst du leise. "Besser." Er nickt. Sein Atem geht schneller, während deine Stiefel fast seine Zehen berühren.
 
-# 3066 Lob
+# 517 Absatz
 
-Hanna lobt den Gärtner und sagt, sie geht jetzt. Wenn sie ihn nicht wiedersehen möchte, springt sie zu Karte 3890
+Du zeigst mit dem Absatz auf einen Erdklumpen. "Noch nicht fein genug." Ohne zu zögern kniet er sich und beginnt, ihn mit bloßen Händen zu zerdrücken.
 
-# 3200 Karte 3210
+# 518 Knien
 
-Hanna gibt dem Gärtner Karte 3210 ohne sie zu lesen, dreht dem Gärtner ihren Hintern ins Gesicht und geht
+Er bleibt unten. Seine Hände arbeiten still, seine Augen wandern immer wieder zu deinen Schuhen. Du sagst nichts. Deine Haltung sagt alles.
 
-# 3210 Nur für den Mann
+# 519 Anmache
 
-Nur für den Mann: wenn du bei ihr bist: Nur bei Aufforderung reden, unterwürfig küssen z.B. auf ihre Schuhe, Komplimente für ihr Outfit machen, sie mit Meine Herrin ansprechen
+Du schiebst deine Mitte direkt vor sein Gesicht. Dein Duft: warm, weiblich, fordernd. Er schaut auf, über ihm sind deine Brüste. "Willst du meine Erde sein?", flüsterst du.
 
-# 3220 alleine lesen
+# 520 Geruch
 
-Hannah liest ab hier die Karten alleine
+Er atmet tief ein. Nicht nur Parfüm. Es ist dein Wille, deine Lust, deine Macht, die ihn benebelt. Sein Blick wird glasig.
 
-# 3223 Vorbereitungen
+# 521 Lob →655
 
-Lass den Gärtner warten. Sprich nicht mit ihm, schau ihn nicht an, bis deine Vorbereitungen fertig sind.
+"Gut gemacht", sagst du. "Ich gehe jetzt." Deine Stimme ist leise, aber schneidend klar. Willst du ihn wiedersehen? Wenn nicht: →655
 
-# 3226 Licht
+# 522 Karte 523
 
-Dimme das Licht oder zünde Kerzen an.
+Du nimmst Karte 523 ohne sie zu lesen und steckst sie ihm jetzt zu. Dann drehst du dich um, dein Hintern genau in seinem Gesicht.
 
-# 3300 Sex-Optionen
+# 523 Nur für den Mann
 
-Hanna sucht sich aus den 33xx Karten ein Vorspiel 1, ein Vorspiel 2, eine Stellung und für jeden einen Höhepunkt aus.  
-Sie zeigt ihm nicht die Karten.
+Wenn du wieder bei ihr bist: Sprich nur, wenn sie dich fragt. Küsse unterwürfig ihre Schuhe, nenne sie "Meine Herrin", bewundere sie. Zeig deine Hingabe.
 
-# 3320 Vorspiel1: Lecken
+# 540 Alleine lesen
 
-Vorspiel 1: Hanna setzt sich auf ein Stuhl oder Sofa, der Mann auf den Boden und muss sie lecken
+Du liest allein weiter. Lass ihn warten. Er soll nichts tun, nichts sagen. Nur atmen. Nur wollen.
 
-# 3321 Vorspiel 1: treten
+# 541 Vorbereitungen
 
-Vorspiel 1: mit Stiefeln/Heels Macht zeigen und ihn treten, Schuhe küssen lassen
+Du bereitest dich vor. Kein Blick zu ihm. Kein Wort. Nur du, dein Raum, deine Lust.
 
-# 3322 Vorspiel 1: Shibari
+# 542 Licht
 
-Vorspiel 1: Er muss Hanna mit Seil dekorieren ohne sie zu fesseln (Karada)
+Kerzen. Gedämpftes Licht. Schatten auf Haut. Schaffe jetzt deine eigene Bühne.
 
-# 3330 Vorspiel 2: masturbieren
+# 543 Sex-Optionen
 
-Vorspiel 2: er muss masturbieren
+Du wählst für dich aus den Karten 550-565: ein Vorspiel 1, ein Vorspiel 2, eine Stellung, einen Orgasmus für dich und für ihn. Die Karten zeigst du ihm nicht.
 
-# 3331 Vorspiel 2: blasen
+# 550 VS1: Lecken
 
-Vorspiel 2: sie fesselt seine Hände, nimmt heißes Wasser in den Mund und bläst
+Vorspiel 1: Du setzt dich. Er kniet. Sein Mund an deiner Lust. Kein Ton, nur dein Atem.
 
-# 3332 Vorspiel 2: Massage
+# 551 VS1: treten
 
-Vorspiel 2: Er bekommt eine Schwanz-Massage und darf nicht kommen. Hannah könnte ihm dabei ein oder zwei Finger in den Po stecken.
+Vorspiel 1: Er muss deine Stiefel küssen, dann deinen Befehl spüren: ein Tritt, zärtlich oder hart. Dein Blick bleibt kalt.
 
-# 3340 Stellung: Doggy
+# 552 VS1: Shibari
 
-Stellung: Doggy
+Vorspiel 1: Er dekoriert deinen Körper mit Seilen. Nur optisch. Kein Fesseln, nur Anbetung in Mustern.
 
-# 3341 Stellung Missionar
+# 553 VS2: masturbieren
 
-Stellung: Missionar vor Sofa kniend
+Vorspiel 2: Er steht, du sitzt. Du schaust zu, während er sich berührt. Deine Stimme führt ihn. Aber er darf nicht kommen.
 
-# 3342 Stellung: Anal
+# 554 VS2: blasen
 
-Stellung: Anal
+Vorspiel 2: Du fesselst seine Hände. Du nimmst heißes Wasser in den Mund und gleich danach ihn. Langsam, mit Hitze und Kontrolle.
 
-# 3343 Stellung reiten
+# 555 VS2: Massage
 
-Stellung: seine Hände ans Bett fesseln und reiten
+Vorspiel 2: Eine Massage. Seine Lust, deine Hände. Vielleicht Finger im Po. Sein Körper darf beben. Aber nicht kommen.
 
-# 3350 Orgasmus sie Facesitting
+# 556 Stellung: Doggy
 
-Orgasmus sie: Facesitting
+Stellung: Du vor ihm, auf allen vieren. Er folgt. Dein Tempo. Dein Takt. Deine Regeln.
 
-# 3351 Orgasmus sie: Fingern
+# 557 Stellung Missionar
 
-Orgasmus sie: Er Fingert sie
+Stellung: Du auf dem Sofa, er kniend vor dir. Deine Hände in seinem Haar. Sein Blick ganz auf dich gerichtet.
 
-# 3352 Orgasmus sie: lecken
+# 558 Stellung: Anal
 
-Orgasmus sie: Er leckt sie
+Stellung: Du gibst deinen Hintern und den Befehl. Er darf. Und muss halten, was er verspricht.
 
-# 3360 Orgasmus er: Arsch
+# 559 Stellung reiten
 
-Orgasmus er: im Arsch kommen
+Stellung: Seine Hände ans Bett gefesselt, du oben. Deine Lust reitet seine Spannung.
 
-# 3361 Orgasmus er: Pussy
+# 560 Orgasmus sie Facesitting
 
-Orgasmus er: In Hannahs Mitte
+Orgasmus sie: Du sitzst auf seinem Gesicht. Deine Bewegung wird zum Kommando. Er lebt für deinen Geschmack.
 
-# 3362 Orgasmus er: masturbieren
+# 561 Orgasmus sie: Fingern
 
-Orgasmus er: Er muss masturbieren
+Orgasmus sie: Er bringt dich mit den Fingern zum Zittern. Jede Bewegung von dir gesteuert.
 
-# 3400 Los!
+# 562 Orgasmus sie: lecken
 
-Hanna fordert den Gärtner auf, sich vor ihr auf den Boden zu setzen
+Orgasmus sie: Sein Mund zwischen deinen Beinen. Sein Rhythmus folgt deinem.
 
-# 3410 Vorspiel 1
+# 563 Orgasmus er: Arsch
 
-Vorspiel 1 ausführen
+Orgasmus er: Du gibst den Befehl. Er kommt in deinem Hintern.
 
-# 3420 Augen verbinden
+# 564 Orgasmus er: Pussy
 
-Hanna verbindet ihm die Augen
+Orgasmus er: Er darf kommen. Tief in deiner Mitte.
 
-# 3423 Vorspiel 2
+# 565 Orgasmus er: masturbieren
 
-Vorspiel 2 ausführen
+Orgasmus er: Er muss es sich selbst machen. Vor deinen Augen. Auf Befehl.
 
-# 3426 Augenbinde ab
+# 600 Los!
 
-Augenbinde abnehmen
+"Auf den Boden." Du zeigst jetzt mit dem Finger, bis er kniet. Erwartung in den Augen.
 
-# 3430 Vögeln
+# 601 Vorspiel 1
 
-Stellung und Höhepunkte ihm erklären und ausführen lassen wie Hanna es möchte
+Du beginnst mit Vorspiel 1. Und er gehorcht. Sein Körper ist Werkzeug deiner Lust.
 
-# 3500 Lob
+# 602 Augen verbinden
 
-Hanna lobt den Gärtner, ab hier lesen wieder beide
+Du verbindest ihm die Augen. Jetzt fühlt er nur noch. Du entscheidest alles.
 
-# 3503 Nachspiel
+# 603 Vorspiel 2
 
-Er bedankt sich, sie ist mit seiner Leistung zufrieden.
+Du fährst fort mit Vorspiel 2. Seine Spannung wächst. Deine Macht auch.
 
-# 3800 Partygedanken
+# 604 Augenbinde ab
 
-Hanna denkt an ihre Party, die sie demnächst gibt
+Du nimmst ihm die Binde ab. Seine Augen blinzeln. Sein Blick sucht nur eines: deine Erlaubnis.
 
-# 3810 Nicht Party →3870
+# 605 Vögeln
 
-Möchte sie den Gärtner nicht zur Party einladen? Sprung zu 3870
+Du erklärst ihm die Stellung und eure Höhepunkte. Er muss folgen. Kein Zögern, keine Widerrede. Du vögelst ihn jetzt. Wie du willst.
 
-# 3850 einladen Dialog
+# 606 Lob
 
-Zur Party einladen Dialog
+"Du hast gut gedient." Du streicht ihm über den Kopf. Ab jetzt lest ihr wieder beide.
 
-# 3860 5022, 5171, 5231 entfernen weil Gärtner nicht kommt
+# 607 Nachspiel
 
-Entferne 5022, 5171 und 5231 aus dem Stapel
+Er bedankt sich mit einem Kuss auf deinen Stiefel. Du nickst. Zufrieden.
 
-# 3870 Verabschiedung →3900
+# 650 Partygedanken
 
-Der Gärtner geht, Sprung zu 3900
+Du denkst an deine geplante Party. An Musik, Stimmen, Berührungen zwischen Gesprächen. Vielleicht wird er kommen. Vielleicht wird er wieder knien.
 
-# 3890 Alleine
+# 651 Nicht Party →654
 
-Hannah ist zu Hause und sinniert, wie der Gärtner drauf ist
+Willst du ihn einladen? Willst du dieses Kapitel weiter öffnen? Wenn nicht: →654
 
-# 3900 duschen
+# 652 einladen Dialog
 
-Hanna geht duschen
+"Philipp, willst du zur Party kommen?" Er hebt den Blick. "Wenn ich dienen darf – ja."
 
-# 3950 Pause
+# 653 912, 927, 943 entfernen weil Gärtner nicht kommt
 
-Pause vom Spiel anbieten
+Weil Philipp kommt, entferne die Karten 912, 927 und 943 aus dem Spiel.
 
-# 4000 Kapitel 4 Jonny
+# 654 Verabschiedung →656
+
+"Du kannst gehen." Du deutest zur Tür. Er verneigt sich leicht. →656
+
+# 655 Alleine
+
+Du bleibst zurück. Barfuß auf dem Teppich. Die Stiefel im Schrank. Deine Lust – noch nicht ganz gestillt.
+
+# 656 duschen
+
+Du duschst. Langsam. Deine Haut erinnert sich an jede seiner Berührungen.
+
+# 657 Pause
+
+Pause. Zeit für Stille. Zeit für ein neues Kapitel. Wenn ihr bereit seid: spielt weiter.
+
+# 700 Kapitel 4 Jonny
 
 KAPITEL IV
+Ein Brummen vor dem Haus. Ein Blaumann, der zu tief blickt. Ein Auftrag, der eskaliert. Und du – bereit, durchzudrehen.
 
-# 4003 Klempner
+# 701 Klempner
 
-Es war ein warmer Nachmittag, als Hannah das dumpfe Brummen eines Motors hörte, das langsam in ihrer Einfahrt verstummte.
+Ein tiefes Brummen draußen. Dann Stille. Du trittst ans Fenster. Ein alter Transporter steht vor dem Haus.
 
-# 4006 Erkennen
+# 702 Erkennen
 
-Sie trat ans Fenster und sah einen bulligen Mann aus einem alten Transporter steigen – kräftig gebaut, ein Blaumann spannte sich über breite Schultern, in der Hand ein schwerer Werkzeugkoffer.
+Er steigt aus. Groß, kräftig, Blaumann über Muskeln. Ein schwerer Werkzeugkoffer in der Hand.
 
-# 4009 Klopfen
+# 703 Klopfen
 
-Er klingelte nicht. Klopfte einfach. Dreimal, fest. Hannah öffnete. „Wegen dem Rohr“, sagte er mit rauer Stimme. „Kommen Sie rein“, erwiderte sie leise.
+Er klingelt nicht. Klopft einfach. Dreimal, fest. Du öffnest. „Wegen dem Rohr“, sagt er. Du nickst. „Kommen Sie rein.“
 
-# 40012 Geruch
+# 704 Geruch
 
-Der Blaumann-Mann trat ein. Der Duft von Öl, Metall und etwas Männlichem erfüllte den Flur. Hannah ging vor, spürte seinen Blick in ihrem Rücken.
+Er geht an dir vorbei. Öl, Metall, Männlichkeit. Sein Blick bleibt kurz an deinem Ausschnitt hängen. Dann wandert er weiter.
 
-# 4015 Abbruch →4890
+# 705 Abbruch →858
 
-Hannah überlegte, ob er ihr zu viel ist. Wenn sie ihn wieder wegschickt, springt sie zu Karte 4890.
+Ist er dir zu viel? Zu direkt? Wenn du ihn gehen lassen willst, springe zu Karte 858.
 
-# 4018 Arbeitsplatz
+# 706 Arbeitsplatz
 
-„Da unten.“  
-Er kniete sich wortlos, das T-Shirt spannte sich unter dem Blaumann bei jeder Bewegung.
+Du zeigst ihm die Stelle. Er kniet sich hin, beugt sich tief. Der Stoff seines Blaumanns spannt sich über seinem Rücken. Du bleibst stehen. Schaust.
 
-# 4021 Fluch
+# 707 Fluch
 
-Hannah lehnte sich an den Türrahmen, ihre Augen blieben auf ihm haften. Er fluchte leise.  
-„Wird nicht einfach.“
+Er flucht. „Wird nicht einfach.“
+Du lehnst am Türrahmen. Deine Augen gleiten über seine Schultern, seinen Nacken, seine Hände.
 
-# 4024 Gespräch
+# 708 Gespräch
 
-Sie kommen ins Gespräch  
-Er stellt sich als Jonny vor.  
-Sie Hannah.
-Er: Von vorne wie von hinten.
+Er dreht sich zu dir um. „Jonny.“ Du: „Hannah.“ Er: „Von vorne wie von hinten.“
 
-# 4027 Blick
+# 709 Blick
 
-Der Blick zwischen ihnen blieb einen Moment zu lang stehen. Kein Wort fiel. Nur ein feines, elektrisches Knistern spannte sich zwischen den Körpern.
+Der Blick zwischen euch bleibt zu lange stehen. Kein Wort fällt. Nur ein feines Knistern spannt sich zwischen den Körpern. Da ist mehr als ein Rohrbruch.
 
-# 4060 Anleitung
+# 710 Anleitung
 
-Hanna liest alleine Karte 4061 und der Mann alleine Karte 4062
+Er nimmt die Karten 711 und 712, um sie alleine zu lesen. Hannah macht alleine bei 713 weiter.
 
-# 4061 Sie Dirty Talk
+# 711 Nur Mann Rohr holen
 
-Nur Hanna: Tipps für Dirty Talk sobald er wiederkommt
+Nur Mann: Sage „Ich muss nochmal zum Auto.“ und verlasse mit deinem Handy den Raum. Schicke ihr eine Nachricht: „Ich hol das Rohr. Und dann komm ich.“
 
-# 4062 Nur Mann Rohr holen
+# 712 Nur Mann Hose
 
-Nur Mann: Sage du musst nochmal zum Auto ein Rohr holen und gehe mit Handy raus. Schicke ihr eine Nachricht, dass du gleich KOMMST. Ziehe deine Unterhose aus und die Hose wieder an. Gehe wieder zu ihr
+Nur Mann: Ziehe deine Unterhose aus und deine Hose wieder an. Gehe zurück.
 
-# 4200 Sex-Optionen
+# 713 Sex-Optionen
 
-Hanna schaut sich alleine die Karten 42xx an
+Du breitest jetzt alleine die Karten 750-764 auf dem Tisch aus. Entferne die, die dir nicht gefallen. Wenn Jonny wieder da ist, macht zusammen bei 800 weiter.
 
-# 4210 Vorauswahl
+# 750 Ort Küche
 
-Sie entfernt die, die ihr nicht gefallen, und legt den Rest offen für Jonny und sich auf den Tisch.
+Ort zum Rohrverlegen: Küche. Zwischen Gewürzen, Hitze, rohem Hunger.
 
-# 4220 Aussuchen
+# 751 Ort Wohnzimmer
 
-Sucht gemeinsam ein Ort, ein Extra, eine Stellung und für jeden einen Höhepunkt
+Ort zum Rohrverlegen: Wohnzimmer. Teppich, Couch, offene Fenster.
 
-# 4230 Ort Küche
+# 752 Ort Flur
 
-Ort zum Rohrverlegen: Küche
+Ort zum Rohrverlegen: Flur. Wand. Kalt. Hart. Dein Atem beschlägt das Glas der Bilderrahmen.
 
-# 4231 Ort Wohnzimmer
+# 753 Extra Porno
 
-Ort zum Rohrverlegen: Wohnzimmer
+Extra: Du filmst mit dem Handy. Oder er. Oder es bleibt liegen und nimmt einfach auf.
 
-# 4232 Ort Flur
+# 754 Extra vulgäre Sprache
 
-Ort zum Rohrverlegen: Flur
+Extra: Ihr redet schmutzig. Keine gespielten Sätze. Sondern echt, roh, dreckig. Was euch scharf macht.
 
-# 4240 Extra Porno
+# 755 Extra: auf dem Boden
 
-Extra: mit Handy aus der Hand filmen
+Extra: Auf dem Boden. Flach, dreckig, direkt. Kein Möbelstück hält euch auf.
 
-# 4241 Extra vulgäre Sprache
+# 756 Stellung Löffel extrem
 
-Extra: vulgäre Sprache von beiden
+Stellung: Er hinter dir, kniend. Du halb auf der Seite, ein Bein hochgezogen. Tief. Langsam. Dehnend.
 
-# 4242 Extra: auf dem Boden
+# 757 Stellung Doggy
 
-Extra: auf dem Boden treiben
+Stellung: Auf allen Vieren. Seine Hände an deinen Hüften. Dein Blick nach vorne – und dein Mund offen.
 
-# 4250 Stellung Löffel extrem
+# 758 Stellung Missionar
 
-Stellung: Sie Löffel er kniet und zieht ihr Bein hoch
+Stellung: Er hebt dich auf die Kommode. Deine Beine um ihn. Die Welt kippt.
 
-# 4251 Stellung Doggy
+# 759 Stellung 69
 
-Stellung: Doggy
+Stellung: 69 im Liegen. Sein Mund, dein Mund, euer Atem verschlingt sich gegenseitig.
 
-# 4252 Stellung Missionar
+# 760 Orgasmus er spritzen
 
-Stellung: Missionar auf Kommode
+Orgasmus er: Er kommt auf dich. Brust, Bauch, Hals. Warm, wild, sichtbar.
 
-# 4253 Stellung 69
+# 761 Orgasmus er: Pussy
 
-Stellung: beide liegen in 69
+Orgasmus er: Er kommt in deiner Möse. Tief. Pulsierend. Du hältst ihn fest.
 
-# 4260 Orgasmus er spritzen
+# 762 Orgasmus sie: lecken
 
-Orgasmus er: Auf sie spritzen
+Orgasmus sie: Er leckt dich, bis du nicht mehr kannst. Kein Halten, kein Entkommen.
 
-# 4261 Orgasmus er: Pussy
+# 763 Orgasmus sie: fingern
 
-Orgasmus er: Er kommt in der Möse
+Orgasmus sie: Seine Finger finden deinen Rhythmus. Dein Körper bäumt sich auf.
 
-# 4270 Orgasmus sie: lecken
+# 764 Orgasmus sie: Sextoy
 
-Orgasmus sie: Er leckt sie
+Orgasmus sie: Du gibst ihm das Toy. Er benutzt es. Du steuerst mit Lauten.
 
-# 4271 Orgasmus sie: fingern
+# 800 Aussuchen
 
-Orgasmus sie: Er fingert sie
+Wenn Jonny vom Auto zurück ist, sucht gemeinsam aus:
+- einen Ort
+- ein Extra
+- eine Stellung
+- deinen und seinen Orgasmus
 
-# 4272 Orgasmus sie: Sextoy
+# 801 Ausführung
 
-Orgasmus sie: Er bedient ihr Sextoy
+Jetzt. Keine Regeln mehr. Keine Karten.
+Nur ihr. Und was gleich passiert. Wild. Hart. Unzensiert.
 
-# 4300 Ausführung
+# 802 Nachspiel
 
-Ausführung jetzt spontan, wild, hart
+Jonny steht langsam auf. Schiebt einen großen Schrauben&shy;schlüssel in seine Werkzeugkiste. Sein Rücken glänzt. Deine Beine zittern noch.
 
-# 4310 Nachspiel
+# 803 Nachspiel sie
 
-Die Luft war noch erfüllt von Hitze, als Jonny einen großen Schraubenschlüssel in die Werkzeugkiste legte.
+Du liegst auf dem Boden. Haut auf Holz. Dein Atem flach, deine Muschi noch offen. Dein Blick ver&shy;schwom&shy;men – aber zufrieden.
 
-# 4312 Nachspiel sie
+# 804 Nachspiel er
 
-Hannah lag auf dem Rücken, nur das zerknüllte Laken über ihrer Hüfte, ihr Haar zerzaust, der Atem langsam, aber noch nicht ganz ruhig.
+Er zieht sich ruhig wieder an. Knopf für Knopf. Du schaust zu. Deine Lippen sind leicht geöffnet.
 
-# 4314 Nachspiel er
+# 805 Nachspiel Dialog
 
-Sie beobachtete ihn aus halb geschlossenen Augen, wie er sich langsam wieder anzog – jeden Knopf, jede Bewegung.  
-Sie mochte das an ihm dieses Erdige, das Unaufgeregte.
+„Bevor du kamst, hat hier nur ein Rohr getropft“, sagst du.
+Er grinst.
 
-# 4316 Nachspiel Dialog
+# 850 An Party denken
 
-“Bevor du kamst, hat hier nur ein Rohr getropft.”
+Du denkst an die Party, die du bald gibst. Musik, Menschen, Gespräche, Lachen.
 
-# 4800 An Party denken
+# 851 Einladung?
 
-Jetzt ist es nicht mehr lange zur Party.
+Doch unter all dem flimmert etwas anderes. Du fragst dich: Wird er kommen?
 
-# 4810 Entscheidung Party →4900
+# 852 Entscheidung Party →855
 
-Nicht zur Party einladen? Sprung zu 4900
+Willst du ihn einladen? War es mehr als nur ein Moment? Wenn nicht, lies weiter bei Karte 855.
 
-# 4820 Einladen Dialog
+# 853 Einladen Dialog
 
-Zur Party einladen
+„Ich gebe eine Party. Wenn du willst…“ Er antwortet schneller, als du erwartet hast: „Wenn du mich brauchst, bin ich da.“
 
-# 4830 5350, 5411 entfernen
+# 854 967, 982 entfernen
 
-Entferne 5350 und 5411 aus dem Stapel
+Weil Jonny kommt, entfernst du jetzt folgende Karten aus dem Spiel:
+967 und 982
 
-# 4840 Jonny geht
+# 855 Jonny geht
 
-Dann stand er auf, schnappte sich seinen Koffer und ging zur Tür.  
-Sie blieb liegen, hörte das Knarzen des Wagens in der Auffahrt.
+Er steht auf, schnappt sich seinen Koffer und geht zur Tür.
+Du bleibst liegen, hörst draußen das Knarzen des Wagens.
 
-# 4843 Entspannt →4900
+# 856 Entspannt
 
-Tief in dir war diese Wärme. Was da eben passiert war, war mehr als ein zufälliger Moment. Da war ein Funke. Sie würde ihm wieder öffnen. Du springst zu Karte 4900.
+Tief in dir ist diese Wärme. Was da eben passiert war, war mehr als ein zufälliger Moment. Es war roh. Und echt.
 
-# 4890 Jonny geht ohne Sex
+# 857 Zukunft →860
 
-Der Klempner geht
+Du weißt: Du würdest ihn wieder hereinlassen. Du springst zu Karte 860.
 
-# 4893 Hannah sinniert
+# 858 Jonny geht ohne Sex
 
-Hanna sinniert, was der Klempner für ein Typ ist
+Der Klempner geht. Kein Spiel. Kein Rohr. Nur der Abdruck seiner Schritte in deinem Flur. Und eine Leere, die später leise kribbeln wird.
 
-# 4900 wieder alleine
+# 859 Hannah sinniert
 
-Hanna ist wieder alleine
+Du stehst am Fenster. Draußen: Asphalt, Regen, sein Rücklicht. Du fragst dich, was für ein Mann er wirklich ist. Nicht nur in der Arbeit. Sondern im Wollen.
 
-# 4950 Party andeuten
+# 860 wieder alleine
 
-Party am Ende vom Spiel andeuten
+Du bist wieder allein. Das Licht ist gedämpft, der Boden warm unter deinen Füßen. Dein Körper erinnert sich. Und deine Lust – die ist nicht weg. Nur leiser.
 
-# 5000 Epilog
+# 861 Party andeuten
+
+Heute war ein Kapitel. Das Letzte. Die nächste Nacht wird anders. Deine Gäste kommen.
+
+# 900 Epilog
 
 EPILOG
+Ein Abend. Eine Party. Du bist Gastgeberin – aber mehr noch: Versuchung. Was in dieser Nacht passiert, liegt auch an denen, die kommen.
 
-# 5003 Vorbereitungen
+# 901 Vorbereitungen
 
 Ein letzter Blick in den Spiegel. Lippen rot, Augen wach. Du atmest tief durch. Heute ist nicht irgendein Abend – heute lädst du ein. Nicht nur zum Feiern.
 
-# 5006 Raum
+# 902 Raum
 Die Wohnung ist verwandelt. Weiches Licht, Musik wie ein Versprechen. Kerzen auf dem Boden, Vanille in der Luft. Jeder Raum flüstert: Bleib. Entdecke.
 
-# 5009 Kleid
+# 903 Kleid
 Dein Kleid liegt noch auf dem Bett – samtig schwarz, mit einem Schlitz bis zum Oberschenkel. Darunter: fast nichts. Du schlüpfst hinein. Alles sitzt. Alles wirkt.
 
-# 5020 Segler kommt nicht →5230
+# 904 Party beginnt
 
-Den Segler Tilman hast du nicht eingeladen, er bleibt bei seinen Leinen. → Weiter mit Karte 5230
+Vor der Tür stehen schon die ersten Gäste. Aufgeregte gute Laune breitet sich im Flur aus. Du bietest die ersten Getränke an.
 
-# 5021 Mann kommt nicht →5170
+# 910 Segler kommt nicht →942
 
-Das Wohnzimmer füllt sich mit Stimmen, doch einer fehlt. Deinen Ehemann Nico hast du nicht eingeladen. → Weiter mit Karte 5170
+Den Segler hast du nicht eingeladen. → Weiter mit Karte 942
 
-# 5022 Gärtner kommt nicht →5140
+# 911 Mann kommt nicht →926
 
-Den Gärtner Philipp hast du nicht eingeladen. Kein Duft nach Erde. Keine Stille mit Blicken. → Weiter mit Karte 5140
+Das Wohnzimmer füllt sich mit Stimmen, doch einer fehlt. Deinen Ehemann Nico hast du nicht eingeladen. → Weiter mit Karte 926
 
-# 5050 Story Party mit Segler, Mann, Gärtner
+# 912 Gärtner kommt nicht →920
+
+Den Gärtner Philipp hast du nicht eingeladen. Kein Duft nach Erde. Keine Stille mit Blicken. → Weiter mit Karte 920
+
+# 913 Story Party mit Segler, Mann, Gärtner
 
 Alle drei sind da. Der Raum knistert. Kein Smalltalk, kein Zufall. Jeder weiß, warum er gekommen ist.
 
-# 5053 Getränke
+# 914 Getränke
 
 Der Segler Tilman bringt einen Wein mit, rauchig und schwer. Dein Mann Nico reicht dir einen Drink, ihr stoßt an. Der Gärtner Philipp beobachtet – wie immer in der Tiefe.
 
-# 5056 Berührungen
+# 915 Berührungen
 
 Hände streifen, Blicke tasten, Gespräche tanzen um das, was nicht ausgesprochen wird. Du fühlst dich wie die Mitte eines dunklen Magnetfelds.
 
-# 5059 Spannung →5410
+# 916 Spannung →978
 
-Später sitzt ihr auf dem Teppich. Zu viert. Ein Spiel beginnt – leise, langsam, mit Fragen, die keine Antworten wollen, sondern Offenheit. → Weiter mit Karte 5410
+Später sitzt ihr auf dem Teppich. Zu viert. Ein Spiel beginnt – leise, langsam, mit Fragen, die keine Antworten wollen, sondern Offenheit. → Weiter mit Karte 978
 
-# 5140 Story Party mit Segler, Mann
+# 920 Story Party mit Segler, Mann
 
 Zwei Männer, ein gemeinsames Echo. Unterschiedlich – und doch gleich gefährlich vertraut.
 
-# 5143 Nähe
+# 921 Nähe
 
 Der Segler zeigt dir alte Segel-Knoten mit einem dünnen Band. Dein Mann berührt dabei fast zufällig deinen Oberschenkel. Du lässt beides geschehen.
 
-# 5146 Tanz →5410
-Später tanzt sie mit dem Mann. Der Segler sieht zu, lehnt an der Wand. Ihre Bewegungen sind weich, wie Wellen – wie sein Blick.
-→ Weiter mit 5410
+# 922 Tanz →978
+Später tanzt du mit deinem Mann. Tilman sieht zu, lehnt an der Wand. Deine Bewegungen sind weich, wie Wellen – wie sein Blick.
+→ Weiter mit 978
 
+# 926 Ziel Mann kommt nicht
 
-# 5170 Ziel Mann kommt nicht
+Vielleicht war es zu nah, zu weich, zu viel. Du denkst kurz an seine Berührungen – dann wendest du dich dem Fest zu.
 
-Dein Mann bleibt fern. Vielleicht war es zu nah, zu weich, zu viel. Du denkst kurz an seine Berührungen – dann wendest du dich dem Fest zu.
-
-# 5171 Gärtner kommt nicht →5200
+# 927 Gärtner kommt nicht →937
 
 Der Gärtner fehlt. Keine Spur von seinen Händen. Deine Stiefel bleiben heute sauber.
-→ Gehe zu 5200
+→ Gehe zu 937
 
-# 5173 Story Party Segler, Gärtner
+# 928 Story Party Segler, Gärtner
 
 Der Gärtner Philipp steht im Türrahmen. Der Segler Tilman schenkt ihm ein Glas ein. Du trittst dazwischen – präsent, weiblich, wach.
 
-# 5176 Gerüche
+# 929 Gerüche
 Die beiden riechen so unterschiedlich. Salz, Holz, Erde, Leder. Du atmest sie ein, mischt sich selbst dazwischen.
 
-# 5179 Einladung →5410
+# 930 Einladung →978
 Du bittest die beiden in ein ruhigeres Zimmer. Nur Kerzenschein. Nur weiche Kissen. Und du.
-→ Weiter mit 5410
+→ Weiter mit 978
 
-# 5200 Story Party mit Segler
+# 937 Story Party mit Segler
 
 Der Segler Tilman kommt spät. Nichts an ihm ist eilig. Er steht im Flur, zieht die Schuhe aus. „Du siehst gut aus“, sagt er. Und meint mehr.
 
-# 5203 Gespräch →5410
+# 938 Gespräch →978
 Ihr redet – über Wind, über Haut, über Kontrolle. Du sitzt nah, eure Knie berühren sich. Eure Stimmen werden leiser.
-→ Weiter mit Karte 5410
+→ Weiter mit Karte 978
 
-# 5230 Ziel Segler kommt nicht
+# 942 Ziel Segler kommt nicht
 
-Du schaust in Richtung See. Die Fenster beschlagen. Der Wind weht, doch der Segler Tilman bleibt fern.
+Du schaust in Richtung See. Die Fenster beschlagen. Der Wind weht, doch der Tilman bleibt fern.
 
-# 5231 Gärter kommt nicht →5291
+# 943 Gärter kommt nicht →955
 
-Du schaust auf deine Pflanzen. Frisch gegossen, aber niemand, der sie berührt.
-→ Weiter mit 5291
+Du betrachtest deine Pflanzen. Frisch gegossen, aber niemand, der sie berührt.
+→ Weiter mit 955
 
-# 5232 Mann kommt nicht →5260
+# 944 Mann kommt nicht →950
 
 Ein leerer Platz neben dir auf dem Sofa. Niemand, der deine Gedanken spiegelt.
-→ Gehe zu 5260
+→ Gehe zu 950
 
-# 5233 Story Party mit Mann, Gärtner
+# 945 Story Party mit Mann, Gärtner
 
 Dein Mann kommt früher, der Gärtner später. Beide bleiben. Der eine redet, der andere schaut. Du fühlst dich wie zwischen zwei Ele&shy;menten: Luft und Erde.
 
-# 5236 Spiel →5410
+# 946 Spiel →978
 
 Ihr spielt Karten. Nicht deine. Noch nicht. Philipp gewinnt – dein Mann flüstert dir etwas ins Ohr, das dich erröten lässt.
-→ Weiter mit Karte 5410
+→ Weiter mit Karte 978
 
-# 5260 Story Party Gärtner
+# 950 Story Party Gärtner
 
 Der Gärtner Philipp kommt mit einer Pflanze. Etwas Selbstgezogenes. Eure Finger berühren sich. Eure Hände bleiben länger ineinander als nötig.
 
-# 5263 Gespräch →5410
+# 951 Gespräch →978
 
 „Du blühst“, sagt er. Du lachst. Dann schweigst du. Ihr beide versteht.
-→ Weiter mit Karte 5410
+→ Weiter mit Karte 978
 
-# 5291 Gärtner kommt nicht
+# 955 Gärtner kommt nicht
 
-Der Gärtner Philipp kommt nicht. Du nippst an deinem Glas und lachst mit einer anderen Frau.
+Der Gärtner Philipp kommt nicht. Du nippst an deinem Glas und lachst mit einer Frau.
 
-# 5292 Mann kommt nicht →5320
+# 956 Mann kommt nicht →962
 
-Kein Zeichen von deinem Mann. Du schließt das Fenster.
+Kein Zeichen von deinem Mann.
+Gehe zu →962
 
-→ Gehe zu 5320
+# 957 Story Party Mann
 
-# 5293 Story Party Mann
+Dein Mann Nico trägt diesmal kein Parfum – sondern Haut. Du bemerkst es, als du ihn umarmst. Ihr küsst euch innig.
 
-Dein Mann Nico trägt diesmal kein Parfum – sondern Haut. Du bemerkst es, als du ihn umarmst. Deine Lippen streifen fast sein Ohr.
+# 958 Nähe →978
 
-# 5296 Nähe →5410
+Ihr verschwindet in die Küche. Er stellt sich hinter dich. Seine Hände auf deine Taille, sein Atem an deinem Hals. Du öffnest dich.
+→ Weiter mit 978
 
-Ihr verschwindet in die Küche. Er stellt sich hinter dich. Seine Hände auf deine Taille, sein Atem an deinem Hals. Nur kurz. Doch genug.
-→ Weiter mit 5410
+# 962 Story Party ohne der ersten drei
 
-# 5320 Story Party ohne der ersten drei
+Viele Gäste, viele Gesichter – aber keiner von denen, die deine Haut kennen. Und doch: Etwas prickelt.
 
-Viele Gäste, viele Gesichter – aber keiner von denen, die deine Haut noch kennen. Und doch: Etwas prickelt.
-
-# 5321 Fremde
+# 963 Fremde
 
 Eine Fremde mit violetten Lippen. Ein Paar, das sich nur mit Blicken verständigt. Du merkst: Es geht nicht um Wiederholung. Sondern um Öffnung.
 
-# 5350 Klempner kommt nicht →5110
+# 967 Klempner kommt nicht →973
 
 Der Transporter taucht nicht auf. Kein Motor, kein Blaumann. Nur ein leerer Parkplatz vor dem Haus.
-→ Weiter mit 5110
+→ Weiter mit 973
 
-# 5353 Ende nur mit Klempner
+# 968 Ende nur mit Klempner
 
 Er kam spät. Als alle gegangen waren.
 
-# 5356 Szene
+# 969 Szene
 
 Du sitzt auf dem Küchentisch, barfuß, mit einem Glas. Er tritt ein, schließt die Tür.
 Keine Worte. Nur schwere Schritte und ein Blick, der sagte: Jetzt. → ENDE
 
-# 5380 Ende ganz alleine
+# 973 Ende ganz alleine
 
-Du bleibst alleine zurück.
+Die Party klang langsam aus, die Gäste verabschieeten sich. Du bleibst alleine zurück.
 
-# 5383 Entspannung
+# 974 Entspannung
 
 Heißer Tee. Badewanne. Du liest in deinen Karten. Streichst mit den Fingern über eine. Vielleicht… ein nächstes Mal.
-
 → ENDE
 
-# 5410 Ende jeder Party mit Gast
+# 978 Ende jeder Party mit Gast
 
-Später am Abend Nacht. Stimmen in der Küche. Schritte auf Holz. Kleidung liegt verstreut.
+Später am Abend. Stimmen in der Küche. Schritte auf Holz. Kleidung liegt verstreut.
 Einer blieb. Hannah hat sich entschieden.
-ENDE
 
-# 5411 Klempner kommt nicht →5460
+# 982 Klempner kommt nicht →Ende
 
-Der Klempner kommt nicht mehr, Sprung zu 5460
+Der Klempner kommt nicht. Kein schwerer Gang, kein schmutziger Humor.
+→ ENDE
 
-# 5430 Ende der Party mit Klempner
+# 986 Ende der Party mit Klempner
 
 Er kommt wieder. Wie ein Schatten mit Werkzeug. Und du – lässt ihn rein. Mit einem leisen „Da bist du ja.“
 
-# 5433 Szene
+# 987 Szene
 Nicht laut. Nicht ungestüm. Aber bestimmt. Als hätte alles darauf gewartet. Du lässt ihn herein. Ohne Worte. Nur ein Klicken der Tür.
 → ENDE
-
-# 5460 Ende der Party ohne Klempner
-
-Der Klempner kommt diesmal nicht. Kein schwerer Gang, kein schmutziger Humor. Du denkst kurz an seine Hände – dann wendest du dich dem zu, was geblieben ist.
-→ ENDE
-
-# 9999 Ablage
-
-ENDE
-Lege alle abgelegten Karten hinter diese.
-Vielleicht kommt irgendwann jemand, der sie wieder nach vorne holt.
 
 `
