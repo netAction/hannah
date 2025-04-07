@@ -356,7 +356,7 @@ Seht euch den Clip an. Lacht, spult vor, haltet inne. Ihr redet über Lust, übe
 
 # 314 Bad oder Massage
 
-Entscheidet zusammen: Wollt ihr ein Bad mit weichen Körpern in warmem Wasser? Oder Massagen mit Haut auf Haut und Öl auf Wirbelsäulen?
+Entscheidet zusam&shy;men: Wollt ihr ein Bad mit weichen Körpern in warmem Wasser? Oder Massagen mit Haut auf Haut und Öl auf Wirbel&shy;säulen?
 Dann: Umsetzen!
 
 # 315 Entspannt
