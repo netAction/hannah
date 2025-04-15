@@ -52,18 +52,25 @@ function parseMarkdownToCards(input) {
 	return cards;
 }
 
-function formatCardNumber(num) {
-	return num.toString().padStart(3, '0');
+function formatCardNumber(num, cardNumberSums) {
+	if (!cardNumberSums[Math.floor(num/50)*50 + '']) {
+		cardNumberSums[Math.floor(num/50)*50 + ''] = 0
+	}
+	cardNumberSums[Math.floor(num/50)*50 + ''] ++
+
+	return num.toString().padStart(3, '0')
 }
 
 function renderCards(cards) {
-	const chunks = [];
-	for (let i = 0; i < cards.length; i += 12) {
-		const group = cards.slice(i, i + 12);
+	const chunks = []
+	// Immer für Karten 000-049, 050-099 und so weiter die Summe
+	const cardNumberSums = {}
+	for (let i = 0; i < cards.length; i += 6) {
+		const group = cards.slice(i, i + 6);
 		const pageContent = group.map(card => {
 			return `
 				<div class="card">
-					<div class="card__number">${formatCardNumber(card.cardnumber)}</div>
+					<div class="card__number">${formatCardNumber(card.cardnumber, cardNumberSums)}</div>
 					<div class="card__text">
 						${card.text.trim()}
 					</div>
@@ -73,8 +80,9 @@ function renderCards(cards) {
 
 		chunks.push(`<div class="pages__single">\n${pageContent}\n</div>`);
 	}
-
-	return chunks.join('\n\n');
+	console.log("Die Anzahl der Karten in 50er-Schritten:")
+	console.log(cardNumberSums)
+	return chunks.join('\n\n')
 }
 
 let pages_html = ''
@@ -83,23 +91,12 @@ pages_html += renderCards(parseMarkdownToCards(karten_markdown))
 
 // Eine Seite für die dicke Karte am Ende
 pages_html += '<div class="pages__single">'
-pages_html += '<div class="card card--end"></div>'
-pages_html += '<div class="card card--end"><p>Schneide diese große Karte aus und klebe sie so zusammen, dass dieser Text…</p></div>'
-pages_html += '<div class="card card--endseparator"><p>&lt;-- Wenn da keine Streifen zu sehen sind, sind beim Drucken die Hintergrundfarben abgeschaltet!</p></div>'
 pages_html += '<div class="card card--end"><div class="card__number">999</div><div class="card__text"><p>ABLAGE</p><p>Lege die verwendeten Karten hinter diese.</p><p>Vielleicht kommt irgendwann jemand, der sie wieder nach vorne holt.</p></div></div>'
-pages_html += '<div class="card card--end"><p>…und dieser nicht zu sehen sind.</p></div>'
-pages_html += '</div>'
-
-// Eine Testseite für die Einrichtung der Schneidemaschine
-pages_html += '<div class="pages__single">'
-pages_html += '<div class="card card--cutting"><p>Diese Seite ist zum Einstellen der Schneidemaschine.</p></div>'
-pages_html += '<div class="card card--cutting"><p>Ihr könnt das Spiel einfach auf 80g-Papier drucken. Hübscher ist buntes oder strukturiertes Papier.</p></div>'
-pages_html += '<div class="card card--cutting"><p>Der Druck sollte ohne Ränder, also auf 100% Skalierung, funktionieren. Die Seiten haben bereits 1,5cm Rand.</p></div>'
-pages_html += '<div class="card card--cutting"><p></p></div>'
-pages_html += '<div class="card card--cutting"><p></p></div><div class="card card--cutting"><p></p></div>'
-pages_html += '<div class="card card--cutting"><p></p></div><div class="card card--cutting"><p></p></div>'
-pages_html += '<div class="card card--cutting"><p></p></div><div class="card card--cutting"><p></p></div>'
-pages_html += '<div class="card card--cutting"><p></p></div><div class="card card--cutting"><p></p></div>'
+pages_html += '<div class="card card--end"><div class="card__number">999</div><div class="card__text"><p>ABLAGE</p><p>Lege die verwendeten Karten hinter diese.</p><p>Vielleicht kommt irgendwann jemand, der sie wieder nach vorne holt.</p></div></div>'
+pages_html += '<div class="card card--end"><div class="card__number">999</div><div class="card__text"><p>ABLAGE</p><p>Lege die verwendeten Karten hinter diese.</p><p>Vielleicht kommt irgendwann jemand, der sie wieder nach vorne holt.</p></div></div>'
+pages_html += '<div class="card card--end"><div class="card__number">999</div><div class="card__text"><p>ABLAGE</p><p>Lege die verwendeten Karten hinter diese.</p><p>Vielleicht kommt irgendwann jemand, der sie wieder nach vorne holt.</p></div></div>'
+pages_html += '<div class="card card--end"><div class="card__number">999</div><div class="card__text"><p>ABLAGE</p><p>Lege die verwendeten Karten hinter diese.</p><p>Vielleicht kommt irgendwann jemand, der sie wieder nach vorne holt.</p></div></div>'
+pages_html += '<div class="card card--end"><div class="card__number">999</div><div class="card__text"><p>ABLAGE</p><p>Lege die verwendeten Karten hinter diese.</p><p>Vielleicht kommt irgendwann jemand, der sie wieder nach vorne holt.</p></div></div>'
 pages_html += '</div>'
 
 document.querySelector('.pages').innerHTML = pages_html
