@@ -980,7 +980,7 @@ Alle drei sind da. Der Raum knistert. Kein Smalltalk, kein Zufall. Jeder weiß, 
 
 # 914 Getränke
 
-Der Segler Tilman bringt einen Wein mit, rauchig und schwer. Dein Mann Nico reicht dir einen Drink, ihr stoßt an. Der Gärtner Philipp beobachtet – wie immer in der Tiefe.
+Der Segler Tilman bringt einen Wein mit, rauchig und schwer. Dein Mann Nico öffnet die Flasche, ihr stoßt an. Der Gärtner Philipp beobachtet – wie immer in der Tiefe.
 
 # 915 Berührungen
 
@@ -1104,7 +1104,7 @@ Keine Worte. Nur schwere Schritte und ein Blick, der sagte: Jetzt. → ENDE
 
 # 973 Ende ganz alleine
 
-Die Party klang langsam aus, die Gäste verabschieeten sich. Du bleibst alleine zurück.
+Die Party ist langsam ausgeklungen, die Gäste haben sich schon verabschiedet. Du bleibst alleine zurück.
 
 # 974 Entspannung
 
